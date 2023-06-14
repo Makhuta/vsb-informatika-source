@@ -3,17 +3,20 @@ import clsx from 'clsx';
 import styles from './styles.module.css';
 
 const FeatureList = [
+  {
+    title: 'Dvorský be like',
+    Img: require('@site/static/memes/dvorsky_be_like.jpg').default
+  }
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({Img, title}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        <img className={styles.featureSvg} src={Img} />
       </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
-        <p>{description}</p>
       </div>
     </div>
   );

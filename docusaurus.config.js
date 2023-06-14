@@ -10,7 +10,7 @@ const katex = require('rehype-katex');
 const config = {
   title: 'VŠB Informatika',
   tagline: 'Database of the hardest/most needed subjects',
-  favicon: 'img/vsb_informatika_icon.png',
+  favicon: 'img/logo.svg',
 
   // Set the production url of your site here
   url: 'https://makhuta.github.io',
@@ -30,8 +30,8 @@ const config = {
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'cs',
+    locales: ['cs'],
   },
 
   presets: [
@@ -81,7 +81,7 @@ const config = {
         title: 'VŠB Informatika',
         logo: {
           alt: 'VŠB Informatika',
-          src: 'img/vsb_informatika_icon.png',
+          src: 'img/logo.svg',
         },
         items: [
           {
@@ -108,7 +108,7 @@ const config = {
           },
           {
             label: 'Blog',
-            to: 'blog',
+            to: 'blog/authors',
             position: 'right',
           },
           {

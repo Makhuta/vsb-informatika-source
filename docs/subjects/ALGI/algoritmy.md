@@ -218,8 +218,23 @@ $n^2$
 
 ### Postup
 
-Todo…
+1. Setřídíme body podle x-ové souřadnice, označme body b1, . . . , bn.
+2. Vložíme do horní a dolní obálky bod b1: H = D = (b1).
+3. Pro každý další bod b = b2, . . . , bn:
+4. Přepočítáme horní obálku:
+5. Dokud |H| ≥ 2, H = (. . . , hk−1, hk) a úhel hk−1hkb je orientovaný doleva:
+6. Odebereme poslední bod hk z obálky H.
+7. Přidáme bod b do obálky H.
+8. Symetricky přepočteme dolní obálku (s orientací doprava).
+9. Výsledný obal je tvořen body v obálkách H a D.
 
+### Průměrná složitost
+
+$O(n*log(n))$
+
+### Brute force složitost
+
+$O(n^3)$
 
 ## Průchod grafem do hloubky 
 
