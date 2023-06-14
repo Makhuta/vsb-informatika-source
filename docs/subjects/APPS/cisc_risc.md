@@ -4,13 +4,13 @@ title: CISC A RISC
 ---
 
 ### Kdy a proč se začaly procesory dělit na RISC a CISC?
-- V 70. letech, kvůli narůstající složitosti procesorů .. 
+- V 70. letech, kvůli narůstající složitosti procesorů...
 
 
 
 ### Jaké byly zásadní důvody, proč se začaly procesory RISC vyvíjet?
 - Výzkumy ukázaly, že programátoři a compilátory používají instrukce velmi nerovnoměrně  (v 50% případů se vyskytují pouze 3 instrukce)
-- Snahy o nalezení optimálního instrukčního souboru => vznik RISC
+- Snahy o nalezení optimálního instrukčního souboru $\Rarr$ vznik RISC
 
 
 
@@ -26,8 +26,8 @@ title: CISC A RISC
 
 
 ### Jak přispěly jednotlivé charakteristické vlastnosti procesorů RISC ke zvýšení výpočetního výkonu?
-- Jednotná délka instrukcí => rychlejší výběr instrukcí z paměti => lepší plnění fronty instrukcí 
-- Jednotný formát => zjednodušuje dekódování
+- Jednotná délka instrukcí $\Rarr$ rychlejší výběr instrukcí z paměti $\Rarr$ lepší plnění fronty instrukcí 
+- Jednotný formát $\Rarr$ zjednodušuje dekódování
 - Zřetězené zpracování instrukcí 
 
 
@@ -75,14 +75,14 @@ Legend:
 - V ideáním světě, při délce zřetězení 6-ti instrukcí, udělá během 12 cyklů
     - CISC: 2 instrukce
     - RISC: 7 instrukcí 
-- viz. tabulky v minulé otázce
+- viz. [tabulky](#jaký-je-princip-zřetězeného-zpracování-instrukcí-v-risc-procesorech)
 
 
 
 ### Jaké problémy přináší zřetězené zpracování instrukcí v procesorech RISC?
 - Datové a strukturální hazardy 
     - Datové: Když instrukce potřebuje mít k dispozici data předchozí instrukce ( a ta ještě nejsou k dispozici)
-    - Strukturální: Problém omezených prostředků procesoru (a počítače jako celku) .. např. jen jedna sběrnice
+    - Strukturální: Problém omezených prostředků procesoru (a počítače jako celku) ... např. jen jedna sběrnice
 - Problémy plněním fronty instrukcí
     - Podmíněné skoky
     - Nepodmíněné skoky na adresu, která se musí vypočítat
@@ -101,7 +101,7 @@ Legend:
 
 
 ### Co to jsou datové a strukturální hazardy v RISC procesorech? Co je způsobuje?
-- uvedeno výše..
+- [uvedeno výše...](#jaké-problémy-přináší-zřetězené-zpracování-instrukcí-v-procesorech-risc)
 
 
 
@@ -110,7 +110,7 @@ Legend:
 
 ![2bitpredikce](imgs/2bit_predikce.png)
 
-- `A` predikuje provedení skoku, `N` říká, že skok provádět nebude
+- `A` predikuje provedení skoku, `N` říká, že se skok provádět nebude
 - `a` a `n` přechody označují, zda se skok naposledy prováděl
 
 

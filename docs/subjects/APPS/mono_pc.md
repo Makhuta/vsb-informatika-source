@@ -102,7 +102,7 @@ title: Monolitické počítače
 
 ### Popište konstrukci a fungování základních D/A převodníků.
 - Převádí digitální signál na analogový
-- PWM (Pulse Width Modulation)
+- [PWM](## "Pulse Width Modulation")
     - Převodníky mají velké zpoždění
     - Pro převod slouží RC článek
     - Hodnota Analog. signálu je "zakódována" jako poměr mezi stavy vypnuto a zapnuto

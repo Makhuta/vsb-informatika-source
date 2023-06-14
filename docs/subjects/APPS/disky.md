@@ -46,12 +46,11 @@ title: Disky
 - Záznam pomocí pitů a landu (jamky a pevniny)
 - Čtecí senzor rozpozná změnu tak, že když světlo narazí na pit, rozptýlí se s posunutou peridodou
 - Zapisuje se laserem
-- Většinou WORM - Write once read many time
+- Většinou [WORM](## "Write Once Read Many time")
 
 
 
-### CD-ROM
-- Compact Disk Read Only Memory
+### [CD-ROM](## "Compact Disk Read Only Memory")
 - Rychlejší než diskety
 - Přehrávač musí měnit rychlost disku, aby zajistil stálou rotaci
 - Čtení pomocí IR laseru
@@ -59,6 +58,5 @@ title: Disky
 
 
 
-### DVD
-- Digital Versatile Disc
+### [DVD](## "Digital Versatile Disc")
 - Vesměs vysokokapacitní CD

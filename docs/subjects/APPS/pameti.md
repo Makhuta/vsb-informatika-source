@@ -5,20 +5,20 @@ title: Paměti
 
 ### Dle jakých kritérií či vlastností se dělí paměti počítačů?
 - Typu přístupu
-    - RAM (Random access memory) - libovolný přístup
-    - SAM (Serial acess memory) - Seriový přístup
+    - [RAM](## "Random Access Memory") - libovolný přístup
+    - [SAM](## "Serial Access Memory") - Seriový přístup
     - Speciální (paměť typu zásobník, fronta..)
 - Možnosti zápisu/čtení
-    - RWM (Read write memory) - pro zápis a čtení
-    - ROM (Read only memory) - pouze pro čtení
+    - [RWM](## "Read Write Memory") - pro zápis a čtení
+    - [ROM](## "Read Only Memory") - pouze pro čtení
     - Kombinované
-        - NVRAM (Non volatile RAM)
-        - WOM (Write only memory)
-        - WORM (Write once - ready many times memory) - optické disky
+        - [NVRAM](## "Non Volatile RAM")
+        - [WOM](## "Write Only Memory")
+        - [WORM](## "Write Once - Ready Many times memory") - optické disky
 - Principu elementární buňky
-    - SRAM - statické paměti
-    - DRAM - dynamické paměti
-    - PROM, EPROM, EEPROM, FLASH - programovatelné paměti
+    - [SRAM](## "Static RAM") - statické paměti
+    - [DRAM](## "Dynamic RAM") - dynamické paměti
+    - [PROM](## "Programable ROM"), [EPROM](## "Erasable PROM"), [EEPROM](## "Electrically Erasable PROM"), FLASH - programovatelné paměti
 - Uchování informace po odpojení napájení
     - Non-Volatile - Zachovají si informaci i po odpojení napájení
     - Volatile - Ztráci informaci po odpojení napájení (DRAM a SRAM)
@@ -36,7 +36,7 @@ title: Paměti
 - Ve čtvercové matici v jedné, nebo více vrstvách
 - Výběr buňky tak musí být proveden pomocí row a column dekodéru
 - DRAM čte adresu po dvou částech (adresa řádku a sloupce) do adresového bufferu
-- [Organizace paměti, strana 5](https://poli.cs.vsb.cz/edu/apps/down/pameti.pdf)
+- [Organizace paměti, strana 4](https://poli.cs.vsb.cz/edu/apps/down/pameti.pdf#page=4)
 
 Stavba DRAM buňky: 
 
@@ -65,22 +65,19 @@ Stavba DRAM buňky:
 
 
 ### Jaké typy pamětí si udržují svůj obsah i po odpojení napájení?
-- (Nevolatilní)
-- ROM (Read Only Memory)
+- [(Nevolatilní)](## "Non-Volatile")
+- [ROM](## "Read Only Memory")
     - Informace zapisuje výrobce (je složená z odporů, které výrobce přepálí.. neporušené prvky pak vedou proud a je v nich minimální napětí.. log. 0)
     - Doba pamatování není ohraničená
-- PROM
-    - Programmable ROM
+- [PROM](## "Programable ROM")
     - Informace se vypalijí pomocí "programátoru"
     - Lze zapsat jen jednou
-- EPROM
-    - Erasable PROM
+- [EPROM](## "Erasable PROM")
     - Uchovává informaci díky kvalitně izolovaném el. napětí
     - K naprogramování je potřeba až 50ms trvající pulz o 5V
     - Lze vymazat pomocí UV záření
     - Doba pamatování 10 až 20 let
-- EEPROM
-    - Electrically Erasable PROM
+- [EEPROM](## "Electrically Erasable PROM")
     - Zápis stějně jak EPROM
     - Mazální pomocí el. pulzu s obrácenou polaritou
     - Doba pamatování 10 až 20 let
@@ -88,7 +85,7 @@ Stavba DRAM buňky:
     - Lze programovat rychle přímo v počítači
     - Doba pamatování 10 až 100 let
     - Struktura buněk je podobná EEPROM, ale pro programování a mazání stači pulz 10us
-    - Přes 10000 programovacích a mazacích cyklů
+    - Přes 10 000 programovacích a mazacích cyklů
 
 
 
@@ -100,16 +97,16 @@ Stavba DRAM buňky:
 
 
 ### Jaké speciální typy pamětí se používají?
-- VRAM (Video RAM)
+- [VRAM](## "Video RAM")
     - Dvouportová
     - Zvýšené přenosové pásmo
-- WRAM (Window RAM (nemá nic společného s tím pseudo operačním systémem))
+- [WRAM](## "Window RAM (nemá nic společného s Windows operačním systémem)")
     - O 25% větší přenosové pásmo než VRAM
     - Nabízí double-buffering
-- SGRAM (Synchroní Grafická RAM)
-    - Funguje jako SDRAM
-    - Ale SDRAM je optimalizována pro kapacitu a SGRAM pro přenos dat
-- FIFO paměti (fronta)
+- [SGRAM](## "Synchroní Grafická RAM")
+    - Funguje jako [SDRAM](## "Synchronous Dynamic RAM")
+    - Ale [SDRAM](## "Synchronous Dynamic RAM") je optimalizována pro kapacitu a [SGRAM](## "Synchronous Graphic RAM") pro přenos dat
+- [FIFO](## "First In First Out") paměti (fronta)
     - Bez přesouvání obsahu
     - S přesouváním obsahu
 - Cache paměti
@@ -132,7 +129,7 @@ Stavba DRAM buňky:
 - Kontrola Parity
     - dorovnává se na lichý počet jedniček do 9. bitu
     - neopravuje, jen detekuje chybu (když je počet jedniček sudý)
-- ECC - Error Correction Code
+- [ECC](## "Error Correction Code")
     - Detekuje více bitové chyby
     - Schopen opravit 1 bitovou chybu
     - Nutnost "Wait State" => zpomalení 2-3%

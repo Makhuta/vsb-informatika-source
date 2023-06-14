@@ -4,7 +4,7 @@ title: Komunikace s periferiemi
 ---
 
 ### Z jakých částí se skládá sběrnice a co je účelem jednotlivých částí?
-- Sběrnice dělíme na Adresovou, Řícicí, Datovou
+- Sběrnice dělíme na Adresovou, Řídicí a Datovou
 - Adresová
     - Přenáší adresy
     - Zdroj adresy je mikroprocesor
@@ -25,7 +25,7 @@ title: Komunikace s periferiemi
         - READY
             - připravenost obvodu
 - Datová
-    - Slouží pro přenos veškerých dat v počítači (vždy meti dvěma)
+    - Slouží pro přenos veškerých dat v počítači (vždy mezi dvěma)
     - Nedůležitější parametry jsou šířka (počet bitů) a časování
     - Šířka ovlivňuje rychlost komunikace
     - Lze ušetřit vodiče pomocí multiplexování
@@ -33,4 +33,4 @@ title: Komunikace s periferiemi
     - Dělí se na:
         - Vnitřní sběrnice mikroprocesoru
         - Vnitřní sběrnice počítače
-        - Vnější sběrnice počítačem
+        - Vnější sběrnice počítače

@@ -33,8 +33,8 @@ title: Architektura počítačů
 ### Jaké má výhody a nevýhody architektura dle von Neumanna?
 - Výhody
     - Rozdělení paměti pro kod a data určuje programátor
-    - do paměti se přistupuje stejném způsobem pro data i instrukce
-    - jedna sběrnice => jednodušší výroba
+    - do paměti se přistupuje stejným způsobem pro data i instrukce
+    - jedna sběrnice $\Rarr$ jednodušší výroba
 - Nevýhody
     - jedna paměť může mít při chybě za následek přepsání vlastního programu
     - jediná sběrnice je úzké místo
@@ -42,7 +42,8 @@ title: Architektura počítačů
 
 
 ### Přinesla harvardská architektura nějaká vylepšení proti von Neumannově?
-- Oddělení paměti dat a programu
+- Výhody
+    - Oddělení paměti dat a programu
     - Program už nemůže přepsat sám sebe
     - Paměti můžou být vyrobeny různými technologiemi
     - Dvě sběrnice umožňují přistupovat k instrukcím a datům zárověň
@@ -60,18 +61,18 @@ title: Architektura počítačů
 
 
 
-### Je lepší mít oddělené paměti pro data i program? Proč ano a proč ne?
+### Je lepší mít oddělené paměti pro data i programa proč?
 - Ano
     - Program nemůže přepsat sám sebe
 - Ne 
-    - Jedna sběrnice => jednodušší výroba
-    - Rozdělení pro kod a data určuje programátor 
+    - Jedna sběrnice $\Rarr$ jednodušší výroba
+    - Rozdělení pro kód a data určuje programátor 
     - Lze efektivněji využít kapacitu paměti
 
 
 
 ### Může fungovat počítač bez paměti či bez periferií?
-- NE.. jak pravil von Neumann .. je potřeba procesoru, paměti a periferii
+- NE... jak pravil von Neumann .. je potřeba procesoru, paměti a periferií
 
 
 

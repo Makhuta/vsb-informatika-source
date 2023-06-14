@@ -18,7 +18,10 @@ title: Jazyk symbolických instrukcí
     - [Bázový + Indexový * měřítko + Konstanta]
     - Např: mov rax, qword [ rdi + rbx * 8 ] 
 - Datové typy:
-    - BYTE, WORD, DWORD, QWORD (8, 16, 32, 64 bit)
+    - BYTE $\Rarr$ 8 bit
+    - WORD $\Rarr$ 16 bit
+    - DWORD $\Rarr$ 32 bit 
+    - QWORD $\Rarr$ 64 bit
 - Spojování:
     - JSI: píšeme “global” před funkce a proměnné z C
 
@@ -49,7 +52,7 @@ title: Jazyk symbolických instrukcí
     - CALL - pro volání funkcí
     - JMP
     - Jcc:
-        - pro testování bitů: JZ, JNE, JNZ..
+        - pro testování bitů: JZ, JNE, JNZ...
         - pro porovnávání čísel: 
             1. Bezznaménkových:
                 - A - above
