@@ -3,7 +3,7 @@ sidebar_position: 1
 title: Algoritmy
 ---
 
-## Selection sort (Třídění s výběrem)
+## [Selection sort (Třídění s výběrem)](/pdfs/levitin.pdf#page=126)
 
 ### Úvaha
 
@@ -19,7 +19,7 @@ Pozice nejmenšího prvku bude na prvním indexu, největší prvek bude na posl
 $n^2$
 
 
-## Bubblesort (Bublinové třídění)
+## [Bubblesort (Bublinové třídění)](/pdfs/levitin.pdf#page=128)
 
 ### Úvaha
 
@@ -51,7 +51,7 @@ Obdobný jak u bubblesortu, jediná změna, je že se pole prochází z obou sm�
 $n^2$
 
 
-## Insertion Sort(třídění s vkládáním)
+## [Insertion Sort(třídění s vkládáním)](/pdfs/levitin.pdf#page=162)
 
 ### Úvaha
 
@@ -68,10 +68,10 @@ Takhle se to děje stále dokud není nesetřízené pole prázdné.
  $n^2$
 
 
-## Shellsort
+## [Shellsort](/pdfs/levitin.pdf#page=166)
 
 
-## Mergesort
+## [Mergesort](/pdfs/levitin.pdf#page=200)
 
 ### Úvaha
 
@@ -87,7 +87,7 @@ Poté se dvě pole vždy spojí jednoho seřazeného, porovnávájí se hodnoty 
 $n*log(n)$
 
 
-## Quicksort
+## [Quicksort](/pdfs/levitin.pdf#page=204)
 
 ### Úvaha
 
@@ -103,10 +103,10 @@ Až budou pole jednoprvkové, tak se spojí. Oproti quicksortu, setřízení už
 $n*log(n)$
 
 
-## Topological sort
+## [Topological sort](/pdfs/levitin.pdf#page=166)
 
 
-## Johnson-Trotterův algoritmus
+## [Johnson-Trotterův algoritmus](/pdfs/levitin.pdf#page=173)
 
 ### Úvaha
 
@@ -121,7 +121,7 @@ Todo…
 $n!$
 
 
-## Euklidův algoritmus
+## [Euklidův algoritmus](/pdfs/levitin.pdf#page=32)
 
 ### Úvaha
 
@@ -133,7 +133,7 @@ Dokud zbytek $m \% n$ není roven 0 <br />
 Takže při $gcd(m,0)$ je m největší dělitel
 
 
-## Eratosthenovo síto
+## [Eratosthenovo síto](/pdfs/levitin.pdf#page=34)
 
 ### Úvaha
 
@@ -145,7 +145,7 @@ Bereme čísla 2 do daného čísla <br />
 Pokud je dané číslo dělitelné tímto číslem, tak vydělíme dané číslo nálezeným prvočíslem a zařádime prvočíslo do násobků
 
 
-## Problém obchodního cestujícího (Traveling Salesman problém)
+## [Problém obchodního cestujícího (Traveling Salesman problém)](/pdfs/levitin.pdf#page=144)
 
 ### Problém
 
@@ -160,10 +160,10 @@ Vytvoří všechny možné permutace a vypočítá vzdálenost každé cesty a n
 $O(n!)$
 
 
-## Problém barvení grafu
+## [Problém barvení grafu](/pdfs/levitin.pdf#page=432)
 
 
-## Problém batohu (knapsack problém)
+## [Problém batohu (knapsack problém)](/pdfs/levitin.pdf#page=144)
 
 ### Problém
 
@@ -178,7 +178,7 @@ Vytvoří se kombinace každých předmětů a spočítá se maximální možná
 $O(2^n)$
 
 
-## Assignment problém
+## [Assignment problém](/pdfs/levitin.pdf#page=147)
 
 ### Problém
 
@@ -195,7 +195,7 @@ Najde se s nejmenšími náklady
 $n!$
 
 
-## Problém nejbližší dvojice bodů (Closest pair)
+## [Problém nejbližší dvojice bodů (Closest pair)](/pdfs/levitin.pdf#page=136)
 
 ### Problém
 
@@ -210,7 +210,7 @@ Spočítá se vzdálenost mezi každým bodem
 $n^2$
 
 
-## Konvexní obal množiny bodů (Convex hull)
+## [Konvexní obal množiny bodů (Convex hull)](/pdfs/levitin.pdf#page=137)
 
 ### Problém
 
@@ -236,7 +236,7 @@ $O(n*log(n))$
 
 $O(n^3)$
 
-## Průchod grafem do hloubky 
+## [Průchod grafem do hloubky](/pdfs/levitin.pdf#page=150) 
 
 ### Úvaha
 
@@ -247,7 +247,7 @@ Procházení do nejhlubší úrovně stromu
 Procházení pomoci stack
 
 
-## Průchod grafem do šířky
+## [Průchod grafem do šířky](/pdfs/levitin.pdf#page=153)
 
 ### Úvaha
 
@@ -258,7 +258,7 @@ Procházení nodů ve stromu postupně po úrovních stromu
 Procházení pomoci queue
 
 
-## Lineární (sekvenční) vyhledávání
+## [Lineární (sekvenční) vyhledávání](/pdfs/levitin.pdf#page=132)
 
 ### Úvaha
 
@@ -269,10 +269,10 @@ Postupné procházení prvků
 Procházení postupně pomocí jedné smyčky
 
 
-## Vyhledávání podřetezce(String matching)
+## [Vyhledávání podřetezce(String matching)](/pdfs/levitin.pdf#page=132)
 
 
-## Binární vyhledávání 
+## [Binární vyhledávání](/pdfs/levitin.pdf#page=178)
 
 ### Úvaha
 
@@ -283,7 +283,7 @@ Pomocí setřízeného pole, hledání pomocí půlení pole
 Hledáme-li číslo 5, tak v poli pokusíme vzít prostřední hodnotu zda-li je 5, pokud ne, tak jestli postřední číslo je menší, tak hledáme ve středu v polovině za ním atd. nebo naopak když je větší tak v polovině za ním.
 
 
-## Interpolační vyhledávání
+## [Interpolační vyhledávání](/pdfs/levitin.pdf#page=189)
 
 ### Úvaha
 
@@ -298,7 +298,7 @@ Místo půlení, hledá místo, kde by číslo mohlo být, když je na pozici v�
 $log2(log2(n))$
 
 
-## Fake coin problém
+## [Fake coin problém](/pdfs/levitin.pdf#page=180)
 
 ### Problém
 
@@ -312,7 +312,7 @@ $W(1) = 0$ <br />
 Pokud máme lichý počet mincí, uděláme dvě kupy a jednu necháme bokem, pokud se kupy rovnají váhou, tak odložená mince je falešná, pokud nějaká váha je lehčí, tak postupuje na tuhle kupu stejným postupem
 
 
-## Russian peasant
+## [Russian peasant](/pdfs/levitin.pdf#page=181)
 
 ### Úvaha
 
@@ -328,7 +328,7 @@ Název po ruských dělnicích, kteří toto používali <br />
 Rychlé kvůli bitovým operacím
 
 
-## Josephus problém
+## [Josephus problém](/pdfs/levitin.pdf#page=182)
 
 ### Problém
 
@@ -348,7 +348,7 @@ $J(1) = 1$
 Acyklický 1bitový posun doleva binárního čísla vstupu n
 
 
-## Strassovo maticové násobení
+## [Strassovo maticové násobení](/pdfs/levitin.pdf#page=217)
 
 ### Úvaha
 
