@@ -3,10 +3,6 @@ import clsx from 'clsx';
 import styles from './styles.module.css';
 
 const FeatureList = [
-  {
-    title: 'Dvorský be like',
-    Img: require('@site/static/memes/dvorsky_be_like.jpg').default
-  }
 ];
 
 function Feature({Img, title}) {
@@ -27,9 +23,12 @@ export default function HomepageFeatures() {
     <section className={styles.features}>
       <div className="container">
         <div className="row">
-          {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
-          ))}
+          {
+            FeatureList.map((props, idx) => (
+              <Feature key={idx} {...props} />
+              )
+            )
+          }
         </div>
       </div>
     </section>

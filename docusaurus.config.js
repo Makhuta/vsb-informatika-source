@@ -78,6 +78,9 @@ const config = {
     ({
       // Replace with your project's social card
       image: 'img/vsb_informatika_banner.webp',
+      colorMode: {
+        defaultMode: 'dark'
+      },
       navbar: {
         title: 'VŠB Informatika',
         logo: {

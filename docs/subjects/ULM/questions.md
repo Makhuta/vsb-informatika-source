@@ -70,14 +70,14 @@ f' ... druhá mocnina. <br />
 💚 Je neplatný, protože formalizujeme-li jej, pak závěr není platný v libovolném modelu předpokladů. <br />
 💚 Má v určité interpretační struktuře premisy pravdivé i závěr pravdivý, ale není platný.
 
-### 9) Které z tvrzení platí pro formuli ∀x[P(x) ⊃ Q(a,b)]
-💚 Formule [∃xP(x) ⊃ Q(a,b)] z ní vyplývá. <br />
-💚 Je ekvivalentní formuli [∃xP(x) ⊃ Q(a,b)] <br />
-💚 Je ekvivalentní s formulí [¬∃xP(x) ⋁ Q(a,b)] (mají stejné modely) <br />
-💚 Má stejné modely jako formule [¬∃xP(x) ⋁ Q(a,b)] <br />
-💥 Je ekvivalentní s formulí [∀xP(x) ⊃ Q(a,b)] <br />
-💥 Je ekvivalentní s formulí [¬∃xP(x) ⊃ Q(a,b)] <br />
-💥 Její negací je formule ∀x[P(x) ⋀ ¬Q(a,b)] (není ani změněný kvantifikátor)
+### 9) Které z tvrzení platí pro formuli $\forall x[P(x)  \supset  Q(a,b)]$
+💚 Formule $[\exist xP(x) \supset Q(a,b)]$ z ní vyplývá. <br />
+💚 Je ekvivalentní formuli $[\exist xP(x) \supset Q(a,b)]$ <br />
+💚 Je ekvivalentní s formulí $[\neg \exist xP(x) \lor Q(a,b)]$ (mají stejné modely) <br />
+💚 Má stejné modely jako formule $[\neg \exist xP(x) \lor Q(a,b)]$ <br />
+💥 Je ekvivalentní s formulí $[\forall xP(x) \supset Q(a,b)]$ <br />
+💥 Je ekvivalentní s formulí $[\neg \exist xP(x) \supset Q(a,b)]$ <br />
+💥 Její negací je formule $\forall x[P(x) \lor \neg Q(a,b)]$ (není ani změněný kvantifikátor)
 
 ### 10) Pomocí rezoluční metody ve VL
 💚 Lze ověřit, zda negovaná formule je kontradikce. <br />
@@ -95,8 +95,8 @@ Judy je krásná. (platí pro PL a ne VL)
 💚 Následující relace nad celými čísly jsou totální funkce: sčítání, násobení, rozdíl (dělení je parciální) <br />
 💚 Všechny podmnožiny relace A = {<1, 2>, <2, 4>, <3, 6>} jsou relacemi <br />
 💚 Funkce dělení na celých číslech je parciální <br />
-💚 Pokud v metodě přirozené dedukce zavedeme hypotézu H a odvodíme z ní formuli A, pak jako řádný krok důkazu musíme zavést formuli H ⊃ A <br />
-💚 Princip unifikace v obecné (…), kdy je |- ∀x Px⊃P(X/term) <br />
+💚 Pokud v metodě přirozené dedukce zavedeme hypotézu H a odvodíme z ní formuli A, pak jako řádný krok důkazu musíme zavést formuli $H  \supset  A$ <br />
+💚 Princip unifikace v obecné (…), kdy je $\vdash \forall x Px \supset P(X/term)$ <br />
 💚 Metodou sémantických tabel využívá disjunktivních zákonu <br />
 💚 Správnost úsudku ověřujeme bez empirického zkoumání stavu světa <br />
 💚 Pro automatizované ověření platnosti úsudku je důležitá jeho správná formalizace <br />
@@ -113,26 +113,26 @@ Judy je krásná. (platí pro PL a ne VL)
 💥 konjunkce, disjunkce <br />
 💥 konjunkce, implikace <br />
 💥 konjunkce, disjunkce, implikace, ekvivalence <br />
-(víme, že {¬, ∧, ∨, ⇒} tvoří úplný systém logických spojek.. nyní si stačí uvědomit, že platí: (a ⇒ b) |=| (¬a ∨ b) a (a ∧ b) |=| ¬(¬a ∨ ¬b).. 3. množina ∆ = {¬, ∧} tvoří úplný systém logických spojek - jediné správné kombinace jsou: {¬,→}, {¬,∧}, {¬,∨}, SOURCE: MUNI)
+(víme, že ${\neg , \lor , \land , \Rightarrow}$ tvoří úplný systém logických spojek.. nyní si stačí uvědomit, že platí: $(a \Rightarrow b)$ |=| $(\neg a \land  b)$ a $(a \lor  b)$ |=| $\neg (\neg a \land  \neg b)$.. 3. množina $\vartriangle = {\neg , \lor }$ tvoří úplný systém logických spojek - jediné správné kombinace jsou: $(\neg ,\rightarrow)$, $(\neg ,\lor )$, $(\neg ,\land )$, SOURCE: MUNI)
 
 ### 13) Označte, které z následujících formulí jsou logicky pravdivé.
-💚 [∀xP(x) ∨ ∀xQ(x)] ⊃ ∀x[P(x) ∨ Q(x)] (přesouvání kvantifikátoru jako krok 6 skolemizace - zákon distribuce kvantifikátorů!!) <br />
-💚 ∀x P(x) ⊃ (Q(y)⊃∀x P(x))
-💚 ∀x [Px ⋀ Q(x)]≡[∀x Px ⋀ ∀xQ(x)]
-💚 ¬∃x[A ⊃ B(x)] ≡ ∀x[¬A ∨ B(x)] (modely) <br />
-💚 ∃x[P(x) ∧ Q(x)] ⊃ [∃xP(x) ∧ ∃xQ(x)] <br /> (přesouvání kvantifikátoru jako krok 6 skolemizace - zákon distribuce kvantifikátorů!!) <br />
-💚 ¬∃x[P(x) ∧ Q(x)] ⊃ [∀xP(x) ∨ ∀xQ(x)] (negace, přesouvání kvantifikátoru jako krok 6 skolemizace - zákon distribuce kvantifikátorů!!) <br />
-💚 A(x/y) ⊃ ∃xA(x) (term t je substituovatelný za proměnnou x) <br />
-💥 ¬∀x[P(x) ∧ Q(x)] ≡ [∃xP(x) ∧ ∃xQ(x)] <br />
-💥 ¬[∀xP(x) ⊃ (Q(y) ⊃ ∀xP(x))] ≡ [∃x¬P(x) ∨ (Q(y) ∧ ∃xP(x))] <br />
-💥 ∀xA(x) ≡ ∃xA(x) (není to samé) <br />
-💥 ∀x∀yA(x,y) ⊃ ∀x∀y¬A(x,y) <br />
-💥 ∃x∀yA(x,y) ≡ ∃y∀xA(x,y) (nemůžeme vyměnit proměnné v kvantifikátorech) <br />
+💚 $[\forall xP(x) \land  \forall xQ(x)]  \supset  \forall x[P(x) \land  Q(x)]$ (přesouvání kvantifikátoru jako krok 6 skolemizace - zákon distribuce kvantifikátorů!!) <br />
+💚 $\forall x P(x)  \supset  (Q(y) \supset \forall x P(x))$ <br />
+💚 $\forall x [Px \lor Q(x)]\equiv [\forall x Px \lor \forall xQ(x)]$ <br />
+💚 $\neg \exist x[A  \supset  B(x)] \equiv  \forall x[\neg A \land  B(x)]$ (modely) <br />
+💚 $\exist x[P(x) \lor  Q(x)]  \supset  [\exist xP(x) \lor  \exist xQ(x)]$ <br /> (přesouvání kvantifikátoru jako krok 6 skolemizace - zákon distribuce kvantifikátorů!!) <br />
+💚 $\neg \exist x[P(x) \lor  Q(x)]  \supset  [\forall xP(x) \land  \forall xQ(x)]$ (negace, přesouvání kvantifikátoru jako krok 6 skolemizace - zákon distribuce kvantifikátorů!!) <br />
+💚 $A(x/y)  \supset  \exist xA(x)$ (term t je substituovatelný za proměnnou x) <br />
+💥 $\neg \forall x[P(x) \lor  Q(x)] \equiv  [\exist xP(x) \lor  \exist xQ(x)]$<br />
+💥 $\neg [\forall xP(x)  \supset  (Q(y)  \supset  \forall xP(x))] \equiv  [\exist x\neg P(x) \land  (Q(y) \lor  \exist xP(x))]$ <br />
+💥 $\forall xA(x) \equiv  \exist xA(x)$ (není to samé) <br />
+💥 $\forall x\forall yA(x,y)  \supset  \forall x\forall y\neg A(x,y)$ <br />
+💥 $\exist x\forall yA(x,y) \equiv  \exist y\forall xA(x,y)$ (nemůžeme vyměnit proměnné v kvantifikátorech) <br />
 (logicky proveditelné / platné: <br />
-💚 ∀xPx ⊃ Qy ⊃ ∀xPx <br />
-💚 [∀xPx ∨ ∀xQx] ⊃ ∀xPx ∨ Qx <br />
-💚 ∀x[Px ⋀ Q(x)] ≡ [∀xPx ⋀ ∀xQ(x)] <br />
-💚 [¬∃x∀yPx,y ⊃ ∀y∃xPxy] ≡ [∃x∀y Px,y ⋀ ∃y∀x¬P(x,y)] <br />
+💚 $\forall xPx  \supset  Qy  \supset  \forall xPx$ <br />
+💚 $[\forall xPx \land  \forall xQx]  \supset  \forall xPx \land  Qx$ <br />
+💚 $\forall x[Px \lor Q(x)] \equiv  [\forall xPx \lor \forall xQ(x)]$ <br />
+💚 $[\neg \exist x\forall yPx,y  \supset  \forall y\exist xPxy] \equiv  [\exist x\forall y Px,y \lor \exist y\forall x\neg P(x,y)]$ <br />
 )
 
 ### 14) Určete, které z následujících úsudků jsou logicky platné:
@@ -150,23 +150,23 @@ Judy je krásná. (platí pro PL a ne VL)
 💥 Lední hokej je velmi zajímavý sport pro všechny věkové kategorie. (subjektivní a není tam ani spojka) <br />
 
 ### 16) 🔴 Nechť PU a QU jsou obory pravdivosti predikátů P, Q. Pak:
-💚 Je-li formule ∀xPx ⊃ Qx v dané interpretaci pravdivá, pak platí, že PU ⊆ QU <br />
-💚 Je-li formule ∀x[P(x) ∧ Q(x)] v dané interpretaci pravdivá, pak platí, že PU = QU. <br />
-💚 Je-li formule ∃x[P(x) ∧ Q(x)] v dané interpretaci pravdivá, pak platí, že (PU ∩ QU) je neprázdný. <br />
-💚 Je-li formule ∃x[P(x ⊃ Q(x)] logicky pravdivá, pak PU není identické s universem U nebo QU = U. <br />
-💚 Formule ∀x[P(x) ⊃ Q(x)] ⊃ [∃xP(x) ⊃ ∃xQ(x)] je logicky pravdivá, neboť jeli PU ⊂ QU, pak je-li P U Q neprázdné, je také QU neprázdné. <br />
-💚 Formule ∀x[P(x) ⊃ Q(x)] ⊃ [∀xP(x) ⊃ ∀xQ(x)] je logicky pravdivá, neboť je-li PU ⊆ QU, pak je-li PU = U, je také QU. <br />
-💚 Formule ∀x[P(x) ⊃ Q(x)] ≡ [∃xP(x) ⊃ ∀xQ(x)] je logicky pravdivá, neboť je-li PU ⊆ QU, pak je-li PU neprázdné, tak QU = U. <br /> <br />
-💚 Formule [∃xP(x) ∧ ∃xQ(x)] ⊃ ∃x[P(x) ∧ Q(x)] je logicky pravdivá, neboť je-li (PU ∩ QU) neprázdný, pak musí být jak PU, tak QU neprázdné. <br />
-💚 Formule [∀xP(x) ∨ ∀xQ(x)] ≡ ∀x[P(x) ∨ Q(x)] je logicky pravdivá, neboť je-li PU = U nebo QU = U, pak je také sjednocení (PU ∪ QU) = U. <br />
-💚 Formule ∃x[P(x) ∧ Q(x)] ⊃ [∃xP(x) ∧ ∃xQ(x)] je logicky pravdivá, neboť je-li (PU ∩ QU) neprázdné, pak musí být jak PU, tak QU neprázdné. <br />
-💚 Formule ∃x[P(x) ∨ Q(x)] ≡ [∃xP(x) ∨ ∃xQ(x)] je logicky pravdivá, protože je-li (PU ∪ QU) neprázdné, pak musí být PU nebo QU neprázdné množiny a naopak.
+💚 Je-li formule $\forall xPx  \supset  Qx$ v dané interpretaci pravdivá, pak platí, že $PU \subseteq QU$ <br />
+💚 Je-li formule $\forall x[P(x) \lor  Q(x)]$ v dané interpretaci pravdivá, pak platí, že $PU = QU$. <br />
+💚 Je-li formule $\exist x[P(x) \lor  Q(x)]$ v dané interpretaci pravdivá, pak platí, že $(PU \cap QU)$ je neprázdný. <br />
+💚 Je-li formule $\exist x[P(x  \supset  Q(x)]$ logicky pravdivá, pak PU není identické s universem U nebo $QU = U$. <br />
+💚 Formule $\forall x[P(x)  \supset  Q(x)]  \supset  [\exist xP(x)  \supset  \exist xQ(x)]$ je logicky pravdivá, neboť jeli $PU \subset QU$, pak je-li $P \cup Q$ neprázdné, je také QU neprázdné. <br />
+💚 Formule $\forall x[P(x)  \supset  Q(x)]  \supset  [\forall xP(x)  \supset  \forall xQ(x)]$ je logicky pravdivá, neboť je-li $PU \subseteq QU$, pak je-li $PU = U$, je také QU. <br />
+💚 Formule $\forall x[P(x)  \supset  Q(x)] \equiv  [\exist xP(x)  \supset  \forall xQ(x)]$ je logicky pravdivá, neboť je-li $PU \subseteq QU$, pak je-li PU neprázdné, tak $QU = U$. <br /> <br />
+💚 Formule $[\exist xP(x) \lor  \exist xQ(x)]  \supset  \exist x[P(x) \lor  Q(x)]$ je logicky pravdivá, neboť je-li $(PU \cap QU)$ neprázdný, pak musí být jak PU, tak QU neprázdné. <br />
+💚 Formule $[\forall xP(x) \land  \forall xQ(x)] \equiv  \forall x[P(x) \land  Q(x)]$ je logicky pravdivá, neboť je-li $PU = U$ nebo $QU = U$, pak je také sjednocení $(PU \cup QU) = U$. <br />
+💚 Formule $\exist x[P(x) \lor  Q(x)]  \supset  [\exist xP(x) \lor  \exist xQ(x)]$ je logicky pravdivá, neboť je-li $(PU \cap QU)$ neprázdné, pak musí být jak PU, tak QU neprázdné. <br />
+💚 Formule $\exist x[P(x) \land  Q(x)] \equiv  [\exist xP(x) \land  \exist xQ(x)]$ je logicky pravdivá, protože je-li $(PU \cup QU)$ neprázdné, pak musí být PU nebo QU neprázdné množiny a naopak.
 
 ### 17) Určete, které z následujících tvrzení jsou pravdivé:
 💚 Relace použité pro interpretaci v PL1 musí být homogenní. <br />
-💚 Princip unifikace v obecné (…), kdy je |- ∀x Px⊃P(X/term). <br />
+💚 Princip unifikace v obecné (…), kdy je $\vdash \forall x Px \supset P(X/term)$. <br />
 💚 Metodou sémantických tabel využívá disjunktivních zákonu. <br />
-💚 Libovolnou n-argumentovou funkci lze vyjádřit pomocí n+1 argumentové relace. <br />
+💚 Libovolnou n-argumentovou funkci lze vyjádřit pomocí $n+1$ argumentové relace. <br />
 💚 Správnost úsudku je dána pouze logickou strukturou premis a závěru. <br />
 💚 Správnost úsudku ověřujeme bez empirického zkoumání stavu světa. <br />
 💚 PL1 pracuje pouze s totálními funkcemi, tj. takovými, kdy každý vzor má právě jeden obraz. <br />
@@ -178,7 +178,7 @@ Judy je krásná. (platí pro PL a ne VL)
 💚 Všechny podmnožiny relace A = {<1,2>,<2,4>,<3,6>} jsou relacemi. <br />
 💚 Operaci rozdíl libovolných dvou množin lze vyjádřit pomocí operace doplňku na těchto dvou množinách. <br />
 💚 Potenční množina množiny M je množina všech podmnožin množiny M, tedy mezi její prvky patří i množina M. <br />
-💚 Pokud v metodě přirozené dedukce zavedeme hypotézu H a odvodíme z ní formuli A, pak jako řádný krok důkazu musíme zavést formuli H ⊃ A <br />
+💚 Pokud v metodě přirozené dedukce zavedeme hypotézu H a odvodíme z ní formuli A, pak jako řádný krok důkazu musíme zavést formuli $H  \supset  A$ <br />
 💚 Funkce dělení na celých číslech je parciální. <br />
 💚 Relace je podmnožina kartézského součinu. <br />
 💚 Následující relace nad celými čísly jsou totální funkce: sčítání, násobení, rozdíl. <br />
@@ -190,7 +190,7 @@ Judy je krásná. (platí pro PL a ne VL)
 💥 Ze sporné množiny předpokladů nemůže vyplývat pravdivý závěr. <br />
 💥 Funkce je libovolná podmnožina kartézského součinu. <br />
 💥 Relace je pouze zprava jednoznačné zobrazení. <br />
-💥 Funkce použité pro interpretaci v PL1 mohou být parciální, tj. takové, kdy každý vzor má minimálně jeden obraz. (parciální = nemá žádný obraz)
+💥 Funkce použité pro interpretaci v PL1 mohou být parciální, tj. takové, kdy každý vzor má minimálně jeden obraz. (parciální = nemá žádný obraz) <br />
 💥 Množiny jsou identické, právě když mají stejný počet prvků. <br />
 💥 Pokud existuje nějaký prvek, který je v množině A a není v množině B, potom je B nutně podmnožinou množiny A. <br />
 💥 Pokud mají dvě množiny stejnou mohutnost, pak jsou identické. <br />
@@ -200,7 +200,7 @@ Judy je krásná. (platí pro PL a ne VL)
 💚 Má celkem 8 ohodnocení. (2 na počet literálů) <br />
 💚 Je splnitelná, pokud je tautologií. <br />
 💚 Je nesplnitelná, pokud nemá model. <br />
-💚 Může být převedena do úplné konjunktivní normální formy, pokud není tautologíí.
+💚 Může být převedena do úplné konjunktivní normální formy, pokud není tautologíí. <br />
 💥 Je tautologií, pokud existuje alespoň jeden model. (musí být všechny model) <br />
 💥 Je sporná, pokud aspoň jedno ohodnocení není modelem. <br />
 💥 Je kontradikcí, pokud nemá alespoň jeden literál pravdivé ohodnocení. (neřešíme literály, ale modely a nesmí být žádný model)
@@ -214,34 +214,34 @@ Judy je krásná. (platí pro PL a ne VL)
 💥 Kontrolu správnosti úsudků, které jsou složeny z elementárních výroků VL. <br />
 💥 Ověřování platnosti úsudků v PL1, pokud obsažené predikáty jsou aspoň binární.
 
-### 20) Nechť A, B ⊨ C a A, C ⊨ D, pak:
+### 20) Nechť $A, B \models C$ a $A, C \models D$, pak:
 💚 Formule A je pravdivá ve všech modelech množiny formulí {B, C}. <br />
 💚 Formule D je pravdivá v každém modelu množiny formulí {A, C}. <br />
-💚 A,C ⊨ C <br />
+💚 $A,C \models C$ <br />
 💥 Pokud jsou formule A, B nepravdivé, pak je i C nepravdivé. <br />
 💥 Když není pravdivá formule D, tak není pravdivá ani A ani B.
 
-### 21) Nechť platí: A, B, C ⊨ D, pak:
+### 21) Nechť platí: $A, B, C \models D$, pak:
 💚 D je formule pravdivá v každém modelu množiny formulí {A, B, C}. <br />
-💚 A, B ⊨ D <br />
-💚 A, B, C, E ⊨ D <br />
+💚 $A, B \models D$ <br />
+💚 $A, B, C, E \models D$ <br />
 💚 Nemůže nastat případ, kdy formule A, B, C jsou v určené interpretaci pravdivé a formule D není <br />
 💚 Pokud je D nepravdivá formule, pak je alespoň jedna formule z A, B, C nepravdivá <br />
 💥 Formule D nemusí být pravdivá v každém modelu množiny formulí {A, B, C}, avšak musí být pravdivá v aspoň jednom. <br />
-💥 Množina formulí {A, B, C, ¬D} má model. <br />
+💥 Množina formulí $(A, B, C, \neg D)$ má model. <br />
 💥 A, B, C, D jsou nutně pravdivé
 
 ### 22) Která z následujících tvrzení jsou správné?
-💚 Žádná valuace kde q=0 a r=0, není modelem formule (p⊃q) ⋀ (q ∨ r) <br />
-💚 Jedním z modelů formule (p⊃q) ⋀(q ∨ r) je valuace p=0, q=0, r=1 <br />
-💚 Každá valuace, pro kterou je q=1, je modelem formule (p ⊃ q) ∧ (q ∨ r) <br />
-💚 Formule ∀x[P(x) ⊃ Q(x)] definuje v dané interpretaci vztah „být podmnožinou“ mezi obory pravdivosti P a Q. (pokud je členem P tak je členem Q) <br />
-💚 Formule ∃x[P(x) ⊃ Q(x)] definuje v dané interpretaci vztah „být podmnožinou“ mezi obory pravdivosti P a Q. (pokud je členem P tak je členem Q) <br />
-💚 Formule ∀xPx⊃¬Qx definuje v dané interpretaci vazbu „být disjunktem“ … P a Q <br />
-💚 Každá formule tvaru ∃xP(x) definuje v dané interpretaci určitou podmnožinu universa. <br />
-💚 Každá formule tvaru P(x) s volnou proměnnou x definuje v dané interpretaci určitou podmnožinu universa. <br />
+💚 Žádná valuace kde $q=0$ a $r=0$, není modelem formule $(p \supset q) \lor (q \land  r)$ <br />
+💚 Jedním z modelů formule $(p \supset q) \lor(q \land  r)$ je valuace $p=0$, $q=0$, $r=1$ <br />
+💚 Každá valuace, pro kterou je $q=1$, je modelem formule $(p  \supset  q) \lor  (q \land  r)$ <br />
+💚 Formule $\forall x[P(x)  \supset  Q(x)]$ definuje v dané interpretaci vztah „být podmnožinou“ mezi obory pravdivosti P a Q. (pokud je členem P tak je členem Q) <br />
+💚 Formule $\exist x[P(x)  \supset  Q(x)]$ definuje v dané interpretaci vztah „být podmnožinou“ mezi obory pravdivosti P a Q. (pokud je členem P tak je členem Q) <br />
+💚 Formule $\forall xPx \supset \neg Qx$ definuje v dané interpretaci vazbu „být disjunktem“ … P a Q <br />
+💚 Každá formule tvaru $\exist xP(x)$ definuje v dané interpretaci určitou podmnožinu universa. <br />
+💚 Každá formule tvaru $P(x)$ s volnou proměnnou x definuje v dané interpretaci určitou podmnožinu universa. <br />
 💚 když chceme rezoluční metodu použit v PL tak je nutno formuli dát to Skolemovy klauzulární formy. <br />
-💥 Formule ∀x[P(x) ⊃ ¬Q(x)] definuje v dané interpretaci vztah „být podmnožinou“ mezi obory pravdivosti P a Q.
+💥 Formule $\forall x[P(x)  \supset  \neg Q(x)]$ definuje v dané interpretaci vztah „být podmnožinou“ mezi obory pravdivosti P a Q.
 
 ### 23) Určete, co platí pro klausuli:
 💚 Je to konečná disjunkce literálů. <br />
@@ -255,30 +255,30 @@ Judy je krásná. (platí pro PL a ne VL)
 
 ### 24) Která z následujících tvrzení jsou platná pro vztahy mezi množinami:
 💚 Množina A je identická množině B, právě když mají stejné prvky, to jest, když všechny prvky náležící množině A náleží také množině B a naopak. <br />
-💚 Množina A je vlastní podmnožinou množiny B, značíme A ⊂ B, právě tehdy, když každý prvek z A je také prvkem B a ne naopak. <br />
+💚 Množina A je vlastní podmnožinou množiny B, značíme $A \subset B$, právě tehdy, když každý prvek z A je také prvkem B a ne naopak. <br />
 💚 Prázdná množina je podmnožinou každé množiny. <br />
 💚 Pokud je množina A vlastní podmnožinou množiny B, pak B má aspoň jeden, který neleží v A. <br />
 💥 Z definice podmnožiny plyne, že ne každá množina je svou podmnožinou. <br />
 💥 Množina A se rovná množině B, právě když každý prvek A je také prvkem B a ne naopak. <br />
 💥 Prázdná množina není podmnožinou žádné množiny. <br />
-💥 Množina A je podmnožinou množiny B, značíme A ⊆ B, právě tehdy a jen tehdy, když mají identické prvky. <br />
-💥 Množina A je vlastní podmnožinou množiny B, značíme A ⊂ B, právě když každý prvek A je také prvkem B. <br />
+💥 Množina A je podmnožinou množiny B, značíme $A \subseteq B$, právě tehdy a jen tehdy, když mají identické prvky. <br />
+💥 Množina A je vlastní podmnožinou množiny B, značíme $A \subset B$, právě když každý prvek A je také prvkem B. <br />
 💥 Množina A se rovná množině B, právě když každý prvek A je také prvkem B a ne naopak.
 
 ### 25) Která z následujících tvrzení platí pro rezoluční metodu ve VL?
 💚 Rezoluční metoda umožňuje prokázat platnost úsudku jak sporem, tak přímou metodou. <br />
 💚 Platnost úsudku nezávisí na interpretaci. <br />
-💚 V případě nepřímého důkazu tautologičnosti pomocí rezoluční metody formule ((a ⊃ b) ∧ (b ⊃ c) ⊃ (a ⊃ c) dojde k odvození prázdné klausule. <br />
+💚 V případě nepřímého důkazu tautologičnosti pomocí rezoluční metody formule $((a  \supset  b) \lor  (b  \supset  c)  \supset  (a  \supset  c)$ dojde k odvození prázdné klausule. <br />
 💚 Pro důkaz pomocí rezoluční metody je nutné převést formuli do KNF. <br />
 💥 Pro důkaz pomocí rezoluční metody je nutné převést formuli do UKNF. <br />
 💥 Pro důkaz pomocí rezoluční metody je nutné převést formuli do UDNF. <br />
 💥 Pro důkaz pomocí rezoluční metody je nutné převést formuli do DNF. <br />
-💥 V případě nepřímého důkazu tautologičnosti formule ((a ⊃ b) ∧ (b ⊃ c) ⊃ (a ⊃ c) pomocí rezoluční metody nedojde k odvození prázdné klausule. (DOJDE!)
+💥 V případě nepřímého důkazu tautologičnosti formule $((a  \supset  b) \lor  (b  \supset  c)  \supset  (a  \supset  c)$ pomocí rezoluční metody nedojde k odvození prázdné klausule. (DOJDE!)
 
 ### 26) Která tvrzení platí:
 💚 Pokud mě zajímá podoba výsledné pravdivostní funkce dané formule, použiji tabulkovou metodu nikoli rezoluční. <br />
 💚 Formule VL má 2 na "n" možných valuací, kde "n" je počet výrokových proměnných v dané formuli. <br />
-💚 Pokud výrokově logický úsudek zapíšeme ve tvaru formule (P1 ∧ P2 ∧ … ∧ Pn) ⊃ Z, kde P1 až Pn jsou premisy a Z je závěr, pak je úsudek platný tehdy a jen tehdy, když je tato formule pravdivá v každé valuaci. <br />
+💚 Pokud výrokově logický úsudek zapíšeme ve tvaru formule $(P1 \lor  P2 \lor  … \lor  Pn) \supset  Z$, kde P1 až Pn jsou premisy a Z je závěr, pak je úsudek platný tehdy a jen tehdy, když je tato formule pravdivá v každé valuaci. <br />
 💚 Metoda sémantických tabel je grafická metoda aplikace distributivního zákona. <br />
 💚 Metoda ověřování tautologičnosti formule sémantickým sporem ověřuje, zda existuje valuace, která splňuje negovanou formuli. <br />
 💥 Důkaz pomocí rezoluční metody lze vést ve VL pouze přímo. <br />
@@ -286,37 +286,37 @@ Judy je krásná. (platí pro PL a ne VL)
 💥 Rezoluční pravidlo ve VL zachovává splnitelnost, ale nikoliv pravdivost. <br />
 💥 Každá tautologie tvoří úplnou konjunktivní i disjunktivní normální formu.
 
-### 27) Mějme množiny A, B, C. Pak množina (A ∩ (B ∪ C):
+### 27) Mějme množiny A, B, C. Pak množina $(A \cap (B \cup C)$:
 💚 Je prázdná, pokud A neobsahuje alespoň jeden prvek z B nebo z C. <br />
-💚 Je prázdná vždy, když (B ∪ C) je prázdná. <br />
+💚 Je prázdná vždy, když $(B \cup C)$ je prázdná. <br />
 💚 Je prázdná vždy když A je prázdná. <br />
-💚 Obsahuje maximálně |A| prvků. <br />
-💥 Obsahuje minimálně |B|+|C| prvků. <br />
+💚 Obsahuje maximálně $|A|$ prvků. <br />
+💥 Obsahuje minimálně $|B|+|C|$ prvků. <br />
 💥 Je prázdná, pokud alespoň jedna z množin A, B, C je prázdná. <br />
 💥 Je vždy prázdná. <br />
 💥 Je neprázdná, pokud každá z množin A, B, C je neprázdná.
 
 ### 28) Co následujícího platí? (je fajn si tu udělat pravdivostní tabulku)
-💚 Jedním z modelů formule (p ⊃ q) ∧ (q ∨ r) je valuace p=0, q=0, r=1. <br />
-💚 Každá valuace, pro kterou je q=1, je modelem formule (p ⊃ q) ∧ (q ∨ r). <br />
-💥 Žádná valuace, pro kterou p=0 a q=0, není modelem formule (p ⊃ q) ∧ (q ∨ r). <br />
-💥 Valuace p=1, q=0, r=1 je modelem formule (p ⊃ q) ∧ (q ∨ r). <br />
-💥 Formule (p ⊃ q) ∧ (q ∨ r) má právě 2 modely. 
-💥 Žádná valuace, pro kterou q=0, není modelem formule (p ⊃ q) ∧ (q ∨ r). <br />
+💚 Jedním z modelů formule $(p  \supset  q) \lor  (q \land  r)$ je valuace $p=0$, $q=0$, $r=1$. <br />
+💚 Každá valuace, pro kterou je $q=1$, je modelem formule $(p  \supset  q) \lor  (q \land  r)$. <br />
+💥 Žádná valuace, pro kterou $p=0$ a $q=0$, není modelem formule $(p  \supset  q) \lor  (q \land  r)$. <br />
+💥 Valuace $p=1$, $q=0$, $r=1$ je modelem formule $(p  \supset  q) \lor  (q \land  r)$. <br />
+💥 Formule $(p  \supset  q) \lor  (q \land  r)$ má právě 2 modely. 
+💥 Žádná valuace, pro kterou $q=0$, není modelem formule $(p  \supset  q) \lor  (q \land  r)$. <br />
 
 ### 29) Která z následujících formulí patří mezi zákony komutace kvantifikátorů?
-💚 ∀x∀y A(x,y) ≡ ∀y∀x A(x,y) <br />
-💚 ∃x∀y A(x,y) ⊃ ∀y∃x A(x,y) <br />
-💚 ∃x∃y A(x,y) ⊃ ∃y∃x A(x,y)
+💚 $\forall x\forall y A(x,y) \equiv  \forall y\forall x A(x,y)$ <br />
+💚 $\exist x\forall y A(x,y)  \supset  \forall y\exist x A(x,y)$ <br />
+💚 $\exist x\exist y A(x,y)  \supset  \exist y\exist x A(x,y)$
 
 ### 30) Formule F je splnitelná v interpretaci
-💚 Právě tehdy když existuje ohodnocení e proměnných takové, že platí |= F[e] v interpretaci I <br />
-💚 Právě když existuje ohodnocení e proměnných takových, že F[e] je pravdivá v dané interpretační struktuře <br />
+💚 Právě tehdy když existuje ohodnocení e proměnných takové, že platí $\models F[e]$ v interpretaci I <br />
+💚 Právě když existuje ohodnocení e proměnných takových, že $F[e]$ je pravdivá v dané interpretační struktuře <br />
 💚 Právě když existuje ohodnocení e promenných takový, že formule F je v tomto ohodnocení v dané interpretaci pravdivá
 
-### 31) Algebraickou strukturu (R \ {0}, *) s operací násobení Nad množinou reálných čísel.
+### 31) Algebraickou strukturu $(R \ {0}, *)$ s operací násobení Nad množinou reálných čísel.
 💚 Operace * je uzavřená na nosiči <br />
-💚 Struktura (Z\{0}, *) je podgrupou této struktury <br />
+💚 Struktura $(Z\{0}, *)$ je podgrupou této struktury <br />
 💚 Operace * je komutativní
 
 ### 32) Která z následujících tvrzení o formálních teoriích jsou správné:
@@ -335,48 +335,48 @@ Judy je krásná. (platí pro PL a ne VL)
 (sémantické metody: spor, tabulka?) <br />
 
 ### 35) Která z následujících formulí patří mezi logické zákony?
-💚 ∀x∀y A(x,y) ≡ ∀y∀x A(x,y) <br />
-💚 ∃x∀y A(x,y) se nerovná ∃y ∀x A(x,y) <br />
-💚 ∀xA(x) ⊃ A(x/t) (term t je substituovatelný za proměnnou x) <br />
-💚 A(x/t) ⊃ ∃xA(x) <br />
-💚 |= ∀xA(x) ⊃ A(y) dictum de omni specielně <br />
-💚 |= ∀xA(x) ⊃ A(x/t) pravidlo konkretizace <br />
-💚 |= A(y) ⊃ ∃xA(x) <br />
-💚 |= ¬∀xA(x) ≡ ∃x¬A(x) <br />
-💚 |= ¬∃xA(x) ≡ ∀x¬A(x)
+💚 $\forall x\forall y A(x,y) \equiv  \forall y\forall x A(x,y)$ <br />
+💚 $\exist x\forall y A(x,y) se nerovná \exist y \forall x A(x,y)$ <br />
+💚 $\forall xA(x)  \supset  A(x/t)$ (term t je substituovatelný za proměnnou x) <br />
+💚 $A(x/t)  \supset  \exist xA(x)$ <br />
+💚 $\models \forall xA(x)  \supset  A(y)$ dictum de omni specielně <br />
+💚 $\models \forall xA(x)  \supset  A(x/t)$ pravidlo konkretizace <br />
+💚 $\models A(y)  \supset  \exist xA(x)$ <br />
+💚 $\models \neg \forall xA(x) \equiv  \exist x\neg A(x)$ <br />
+💚 $\models \neg \exist xA(x) \equiv  \forall x\neg A(x)$
 
 ### 36) Zákony distribuce kvantifikátorů:
-💚 |= ∀x [A(x) ⊃ B(x)] ⊃ [∀xA(x) ⊃∀xB(x)] <br /> 
-💚 |= ∀x [A(x) ⊃ B(x)] ⊃ [∃xA(x) ⊃∃xB(x)] <br />
-💚 |= ∀x [A(x) ∧ B(x)] ≡ [∀xA(x) ∧∀xB(x)] <br />
-💚 |= ∃x [A(x) ∧ B(x)] ⊃ [∃xA(x) ∧∃xB(x)] <br />
-💚 |= [∀xA(x) ∨∀xB(x)] ⊃∀x [A(x) ∨ B(x)] <br />
-💚 |= ∃x [A(x) ∨ B(x)] ≡ [∃xA(x) ∨∃xB(x)]
+💚 $\models \forall x [A(x)  \supset  B(x)]  \supset  [\forall xA(x)  \supset \forall xB(x)]$ <br /> 
+💚 $\models \forall x [A(x)  \supset  B(x)]  \supset  [\exist xA(x)  \supset \exist xB(x)]$ <br />
+💚 $\models \forall x [A(x) \lor  B(x)] \equiv  [\forall xA(x) \lor \forall xB(x)]$ <br />
+💚 $\models \exist x [A(x) \lor  B(x)]  \supset  [\exist xA(x) \lor \exist xB(x)]$ <br />
+💚 $\models [\forall xA(x) \land \forall xB(x)]  \supset \forall x [A(x) \land  B(x)]$ <br />
+💚 $\models \exist x [A(x) \land  B(x)] \equiv  [\exist xA(x) \land \exist xB(x)]$
 
-### 37) Zákony prenexních operací ● |= ∀x [A ⊃ B(x)] ≡ [A ⊃∀xB(x)]
-💚 |= ∃x [A ⊃ B(x)] ≡ [A ⊃∃xB(x)] <br />
-💚 |= ∀x [B(x) ⊃ A] ≡ [∃xB(x) ⊃ A] <br />
-💚 |= ∃x [B(x) ⊃ A] ≡ [∀xB(x) ⊃ A] <br />
-💚 |= ∀x [A ∧ B(x)] ≡ [A ∧∀xB(x)] <br />
-💚 |= ∃x [A ∧ B(x)] ≡ [A ∧∃xB(x)] <br />
-💚 |= ∀x [A ∨ B(x)] ≡ [A ∨∀xB(x)] <br />
-💚 |= ∃x [A ∨ B(x)] ≡ [A ∨∃xB(x)]
+### 37) Zákony prenexních operací ● $\models \forall x [A  \supset  B(x)] \equiv  [A  \supset \forall xB(x)]$
+💚 $\models \exist x [A  \supset  B(x)] \equiv  [A  \supset \exist xB(x)]$ <br />
+💚 $\models \forall x [B(x)  \supset  A] \equiv  [\exist xB(x)  \supset  A]$ <br />
+💚 $\models \exist x [B(x)  \supset  A] \equiv  [\forall xB(x)  \supset  A]$ <br />
+💚 $\models \forall x [A \lor  B(x)] \equiv  [A \lor \forall xB(x)]$ <br />
+💚 $\models \exist x [A \lor  B(x)] \equiv  [A \lor \exist xB(x)]$ <br />
+💚 $\models \forall x [A \land  B(x)] \equiv  [A \land \forall xB(x)]$ <br />
+💚 $\models \exist x [A \land  B(x)] \equiv  [A \land \exist xB(x)]$
 
 ### 38) Zákony komutace kvantifikátorů:
-💚 |= ∀x∀yA(x,y) ≡∀y∀xA(x,y) <br />
-💚 |= ∃x∃yA(x,y) ≡∃y∃xA(x,y) <br />
-💚 |= ∃x∀yA(x,y) ⊃∀y∃xA(x,y)
+💚 $\models \forall x\forall yA(x,y) \equiv \forall y\forall xA(x,y)$ <br />
+💚 $\models \exist x\exist yA(x,y) \equiv \exist y\exist xA(x,y)$ <br />
+💚 $\models \exist x\forall yA(x,y)  \supset \forall y\exist xA(x,y)$
 
 ### 39) Mezi vlastnosti binární relace R na množině A patří:
-💚 Reflexivita: ∀x R(x,x) <br />
-💚 Symetrie: ∀x∀y R(x,y) ⊃ R(y,x) <br />
-💚 Reflexivita: ∀x ¬R(x,x) <br />
-💚 Asymetrie ∀x∀y R(x,y)⊃¬R(y,x)
+💚 Reflexivita: $\forall x R(x,x)$ <br />
+💚 Symetrie: $\forall x\forall y R(x,y)  \supset  R(y,x)$ <br />
+💚 Reflexivita: $\forall x \neg R(x,x)$ <br />
+💚 Asymetrie $\forall x\forall y R(x,y) \supset \neg R(y,x)$
 
 ### 40) Mezi vlastnosti binární relace R na množině A patří:
-💚 ⊨ ∀x[B(x) ⊃ A] ≡ [∃xB(x) ⊃ A] <br />
-💚 ⊨ ∀xA(x) ⊃ A(y) <br />
-💚 ⊨ ∃x[A(x) ∨ B(x)] ≡ [∃xA(x) ∨ ∃xB(x)]
+💚 $\models \forall x[B(x)  \supset  A] \equiv  [\exist xB(x)  \supset  A]$ <br />
+💚 $\models \forall xA(x)  \supset  A(y)$ <br />
+💚 $\models \exist x[A(x) \land  B(x)] \equiv  [\exist xA(x) \land  \exist xB(x)]$
 
 [Link / skok úplně nahoru](#)
 <br />
