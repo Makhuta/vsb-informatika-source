@@ -108,7 +108,7 @@ Legend:
 ### Jak funguje dvoubitová dynamická predikce skoků a proč se využívá?
 - Jako čtyř stavový automat
 
-![2bitpredikce](imgs/2bit_predikce.png)
+![2bitpredikce](../imgs/2bit_predikce.png)
 
 - `A` predikuje provedení skoku, `N` říká, že se skok provádět nebude
 - `a` a `n` přechody označují, zda se skok naposledy prováděl

@@ -20,7 +20,7 @@ title: Disky
 - V bodu dotyku s povrchem je štěrbina magnetického obvodu (štěrbina je díra v té hlavě(Magnetickém obvodu)).. štěrbina + mag. obvod tvoří jádro
 - Pokud manetickým obvodem prochází proud, vzniká magnetický tok, který se díky štěrbině dostává do okolí, a ovlivňuje magnetickou vrstvu 
 
-![zapis_na_disk](imgs/zapis_na_disk.png)
+![zapis_na_disk](../imgs/zapis_na_disk.png)
 
 - Podélný zápis:
     - Menší hustota
@@ -31,7 +31,7 @@ title: Disky
 
 
 ### Jak funguje pevný disk ?
-![disk](imgs/disk.png)
+![disk](../imgs/disk.png)
 
 - Proud je převeden na indukci
 - Disk je vyroben z nemagnetického materiálu, který je pokryt fermagnetickou vrstvou
@@ -40,7 +40,7 @@ title: Disky
 
 
 ### Jaký je princip ukládání dat u optických pamětí ?
-![optic](imgs/optic.png)
+![optic](../imgs/optic.png)
 
 - Materiál - polykarbonát
 - Záznam pomocí pitů a landu (jamky a pevniny)

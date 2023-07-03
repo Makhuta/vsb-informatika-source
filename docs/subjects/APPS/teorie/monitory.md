@@ -16,7 +16,7 @@ title: Monitory
     - (TN-LCD, které v klidovém stavu bez přivedeného napětí propouští světlo)
     - Po přivedení napětí nématická struktura přestane otáčet světlo, a druhý polarizační filtr ho nepustí
 
-![lcd](imgs/lcd.png)
+![lcd](../imgs/lcd.png)
 
 (tady světlo otáčí == pixely jsou zaplé)
 
@@ -45,7 +45,7 @@ title: Monitory
 ### Jak fungují OLED zobrazovací jednotky?
 - Organic Light Emmiting Diode
 
-![OLED](imgs/oled.png)
+![OLED](../imgs/oled.png)
 
 - Při přivedení napětí, se elektrony(záporné částice) začnou hromadit v organické vrstvě, blíže k anodě
 - Díry (kladné částice) se hromadí na opačné straně blíže katodě
@@ -99,4 +99,4 @@ title: Monitory
     - Nad každou kapslí je jeden barevný filtr z trojce RGB
     - Špatné barvy.. barevá hloubka je 4096
 
-![eink](imgs/eink.png)
+![eink](../imgs/eink.png)

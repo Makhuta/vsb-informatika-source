@@ -61,7 +61,7 @@ title: x86 Intel historie
 - 10ti úrovňové zřetězení
 - Predikce skoků si pamatuje 512 hodnot
 
-![pentium_pro](imgs/pentium_pro.png)
+![pentium_pro](../imgs/pentium_pro.png)
 
 ### Pentium 2
 

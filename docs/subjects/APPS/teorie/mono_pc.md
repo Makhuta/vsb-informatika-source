@@ -28,7 +28,7 @@ title: Monolitické počítače
     - Obvod RC (Pro minimalizaci ceny)
     - Externí zdroj
 
-![clock_gen](imgs/clock_gen.png)
+![clock_gen](../imgs/clock_gen.png)
 
 
 
@@ -65,7 +65,7 @@ title: Monolitické počítače
         - Typickým standardem je I2C 
 - Princip ???
 
-![seriovy_prenos](imgs/seriovy_prenos.png)
+![seriovy_prenos](../imgs/seriovy_prenos.png)
 
 
 
@@ -84,7 +84,7 @@ title: Monolitické počítače
         - Rychlé
         - S počtem komparátorů roste rozlišovací schopnost
 
-        ![komparacni_prevodnik](imgs/komparacni_prevodnik.png)
+        ![komparacni_prevodnik](../imgs/komparacni_prevodnik.png)
 
     - A/D převodník s D/A převodem
         - pro sledování pomalu rostoucích veličin
@@ -117,7 +117,7 @@ title: Monolitické počítače
 
 ### NÁKRES D/A ?
 
-![pwm_prevodnik](imgs/pwm_prevodnik.png)
+![pwm_prevodnik](../imgs/pwm_prevodnik.png)
 
 
 

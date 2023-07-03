@@ -40,7 +40,7 @@ title: Paměti
 
 Stavba DRAM buňky: 
 
-![dram_bunka](imgs/dram_bunka.png)
+![dram_bunka](../imgs/dram_bunka.png)
 
 
 
@@ -60,7 +60,7 @@ Stavba DRAM buňky:
 - Jako 2D mřížka, kde jeden řádek tvoří jedno slovo
 - SRAM paměti nevyužívají adresní multiplexing
 
-![SRAM](imgs/SRAM.png)
+![SRAM](../imgs/SRAM.png)
 
 
 
@@ -118,7 +118,7 @@ Stavba DRAM buňky:
 
 ### Hierarchie pamětí v počítači
 
-![memory_h](imgs/memory_h.png)
+![memory_h](../imgs/memory_h.png)
 
 
 

@@ -25,7 +25,7 @@ title: CUDA
 
 ### Organizace mřížky ?
 
-![cuda_grid](imgs/cuda_grid.png)
+![cuda_grid](../imgs/cuda_grid.png)
 
 - Kód kernelu musí bt přizpůsoben mřížce
 - Pro určení pozice threadu v mřížce lze použít předdefinované proměnné (blockIdx, ..)
@@ -66,4 +66,4 @@ title: CUDA
 - dim3 je uint3
 - ```jmeno_funkce<<<pocet_bloku, pocet_vlaken>>>(parametry)```
 
-![fermi](imgs/fermi.png)
+![fermi](../imgs/fermi.png)

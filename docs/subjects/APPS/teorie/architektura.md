@@ -8,7 +8,7 @@ title: Architektura počítačů
 - Instrukce se vykonávají sekvenčně
 - Každý následující krok závisí na tom předchozím
 
-![princip_pocitace](imgs/princip_pocitace.png)
+![princip_pocitace](../imgs/princip_pocitace.png)
 
 - Procesor si přes sběrnici vyžádá instrukci z paměti na adrese IP
 - Poté co instrukci získá ji provede
@@ -26,7 +26,7 @@ title: Architektura počítačů
 - Změna pořadí instrukcí je možná pomocí skoku
 - Pro reprezentaci čísel, adres, znaků.. se používá dvojková soustava
 
-![von_neumann](imgs/von_neumann.png)
+![von_neumann](../imgs/von_neumann.png)
 
 
 
@@ -51,7 +51,7 @@ title: Architektura počítačů
     - dvě sběrnice jsou dražší
     - nevyužitou část paměti dat nelze použít pro program.. a naopak
 
-![harvard](imgs/harvard.png)
+![harvard](../imgs/harvard.png)
 
 
 
