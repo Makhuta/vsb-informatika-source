@@ -28,3 +28,16 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+img[src*="#v_top"] {
+  vertical-align: top;
+}
+
+img[src*="bozp"] {
+  max-height: 15em;
+  width: auto
+}
+
+mark {
+  background-color: greenyellow;
+}

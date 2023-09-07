@@ -95,6 +95,11 @@ const config = {
             items: [
               {
                 type: 'docSidebar',
+                label: 'Bezpečnost v elektrotechnice',
+                sidebarId: 'BOZP',
+              },
+              {
+                type: 'docSidebar',
                 label: 'Úvod do logického myšlení',
                 sidebarId: 'ULM',
               },
