@@ -116,6 +116,11 @@ const config = {
             ],
           },
           {
+            label: "Deadlines",
+            to: "deadlines",
+            position: "left"
+          },
+          {
             label: 'Blog',
             to: 'blog/authors',
             position: 'right',
