@@ -5,10 +5,10 @@ title: Řešení
 
 ### 1. Správná varianta zapojení prodlužovacích přívodů (pro použití v instalacích TN-C) je na obrázcích
 
--  <mark>A)</mark> ![A](./obrazky/01-A.png#bozp#v_top)
--  B) ![B](./obrazky/01-B.png#bozp#v_top)
--  C) ![C](./obrazky/01-C.png#bozp#v_top)
--  D) ![D](./obrazky/01-D.png#bozp#v_top)
+-  <mark>A)</mark> ![A](./obrazky/01-A.PNG#bozp#v_top)
+-  B) ![B](./obrazky/01-B.PNG#bozp#v_top)
+-  C) ![C](./obrazky/01-C.PNG#bozp#v_top)
+-  D) ![D](./obrazky/01-D.PNG#bozp#v_top)
 
 ### 2. Ochranný vodič (PE) se značí barvou
 
@@ -36,7 +36,7 @@ title: Řešení
 - D) kladný i záporný pól černě
 
 ### 6. Síť vyobrazená na obrázku je síť:
-![TN-C](./obrazky/06.png#bozp)
+![TN-C](./obrazky/06.PNG#bozp)
 
 - <mark>A) TN-C</mark>
 - B) TT
@@ -55,7 +55,7 @@ title: Řešení
 - C) pohyb po dobu stlačení ovládače
 - D) start
 
-### 9. Svorka s označením ![Ground](./obrazky/09.png#bozp) nebo PE
+### 9. Svorka s označením ![Ground](./obrazky/09.PNG#bozp) nebo PE
 - <mark>A) Slouží k připojení ochranného vodiče, ten musí být k zařízení připojen</mark>
 - B) Slouží k připojení ochranného vodiče, ten může být k zařízení připojen
 - C) Je informací, že se zde nalézá bezšumová zem
@@ -67,7 +67,7 @@ title: Řešení
 - C) Objímka musí být zapojena na stranu zdroje
 
 ### 11. Značka na obrázku znamená
-![O](./obrazky/11.png#bozp)
+![O](./obrazky/11.PNG#bozp)
 - <mark>A) nulový nebo střední vodič</mark>
 - B) kabelový svazek
 - C) vodič PEN
@@ -159,10 +159,10 @@ title: Řešení
 - C) pravidelně v hodinových intervalech
 
 ### 27. Správné zapojení zásuvek ve starší resp. v novější instalaci je:
--  <mark>A)</mark> ![A](./obrazky/27-A.png#bozp#v_top)
--  B) ![B](./obrazky/27-B.png#bozp#v_top)
--  <mark>C)</mark> ![C](./obrazky/27-C.png#bozp#v_top)
--  D) ![D](./obrazky/27-D.png#bozp#v_top)
+-  <mark>A)</mark> ![A](./obrazky/27-A.PNG#bozp#v_top)
+-  B) ![B](./obrazky/27-B.PNG#bozp#v_top)
+-  <mark>C)</mark> ![C](./obrazky/27-C.PNG#bozp#v_top)
+-  D) ![D](./obrazky/27-D.PNG#bozp#v_top)
 
 ### 28. U starých instalací může být izolovaný vodič PE značen rovněž barvou
 - A) tmavě modrá
@@ -175,7 +175,7 @@ title: Řešení
 - <mark>B) Vypracování revizní zprávy se obvykle nepožaduje je nutné provést záznam o kontrole s podpisem pověřeného pracovníka</mark>
 - C) Je nutné vypracovat revizní zprávu
 
-### 30. Je - li na viditelném místě kovového povrchu nebo vnitřku krytu značka ![X_GND](./obrazky/30.png#bozp)
+### 30. Je - li na viditelném místě kovového povrchu nebo vnitřku krytu značka ![X_GND](./obrazky/30.PNG#bozp)
 - A) jedná se o zařízení třídy ochrany I
 - B) jedná se o zařízení třídy ochrany 0
 - <mark>C) Není nutné k němu připojit ochranný vodič</mark>
@@ -199,7 +199,7 @@ title: Řešení
 - <mark>D) nadproud ve fázovém vodiči ekvivalentní zkratu</mark>
 
 ### 34. Síť vyobrazená na obrázku je síť:
-![TN-C-S](./obrazky/34.png#bozp)
+![TN-C-S](./obrazky/34.PNG#bozp)
 - A) IT
 - B) TT
 - C) TN-S
@@ -274,10 +274,10 @@ title: Řešení
 - D) normální stav - indikace normálních podmínek
 
 ### 41. Správné připojení pohyblivého přívodu spotřebiče k zásuvce a zásuvky v síti <u>TN-S</u> je:
--  A) ![A](./obrazky/41-A.png#bozp#v_top)
--  B) ![B](./obrazky/41-B.png#bozp#v_top)
--  C) ![C](./obrazky/41-C.png#bozp#v_top)
--  <mark>D)</mark> ![D](./obrazky/41-D.png#bozp#v_top)
+-  A) ![A](./obrazky/41-A.PNG#bozp#v_top)
+-  B) ![B](./obrazky/41-B.PNG#bozp#v_top)
+-  C) ![C](./obrazky/41-C.PNG#bozp#v_top)
+-  <mark>D)</mark> ![D](./obrazky/41-D.PNG#bozp#v_top)
 
 ### 42. Fázové izolované vodiče u střídavých soustav se značí barvou
 - A) libovolnou
@@ -310,9 +310,9 @@ title: Řešení
 - D) vinutím transformátoru a fázovým vodičem k místu poruchy
 
 ### 47. Označte jakým způsobem se <u>nesmí</u> provést zapojení zásuvek a spotřebiče třídy I. v síti TN-C
--  <mark>A)</mark> ![A](./obrazky/47-A.png#bozp#v_top)
--  B) ![B](./obrazky/47-B.png#bozp#v_top)
--  C) ![C](./obrazky/47-C.png#bozp#v_top)
+-  <mark>A)</mark> ![A](./obrazky/47-A.PNG#bozp#v_top)
+-  B) ![B](./obrazky/47-B.PNG#bozp#v_top)
+-  C) ![C](./obrazky/47-C.PNG#bozp#v_top)
 
 ### 48. Izolovaný nulový vodič se ve střídavých sítích značí barvou
 - A) červená
@@ -411,7 +411,7 @@ title: Řešení
 - C) 10-20
 
 ### 65. Síť vyobrazená na obrázku je síť:
-![TT](./obrazky/65.png#bozp)
+![TT](./obrazky/65.PNG#bozp)
 - A) TN-C
 - B) IT
 - C) TN-S
@@ -424,14 +424,14 @@ title: Řešení
 - D) ošetřující lékař
 
 ### 67. Síť vyobrazená na obrázku níže je síť
- ![TN-S](./obrazky/67.png#bozp)
+ ![TN-S](./obrazky/67.PNG#bozp)
 - <mark>A) TN-S</mark>
 - B) TN-C-S
 - C) IT
 - D) TT
 
 ### 68. Síť vyobrazená na obrázku níže je síť:
- ![TN-C-S](./obrazky/68.png#bozp)
+ ![TN-C-S](./obrazky/68.PNG#bozp)
 - A) IT
 - <mark>B) TN-S resp. TN-C-S</mark>
 - C) TN-C
@@ -460,9 +460,9 @@ title: Řešení
 - C) pojmem prevence rizik se rozumí úplné vyloučení všech rizikových faktorů na pracovišti
 
 ### 73. Označte správné zapojení zásuvek, které bylo provedeno po roce 1999 a později (v síti TN-S)
--  <mark>A)</mark> ![A](./obrazky/73-A.png#bozp#v_top)
--  B) ![B](./obrazky/73-B.png#bozp#v_top)
--  C) ![C](./obrazky/73-C.png#bozp#v_top)
+-  <mark>A)</mark> ![A](./obrazky/73-A.PNG#bozp#v_top)
+-  B) ![B](./obrazky/73-B.PNG#bozp#v_top)
+-  C) ![C](./obrazky/73-C.PNG#bozp#v_top)
 
 ### 74. Osoba znalá §5 vyhl. 50/1978 Sb. může samostatně:
 - <mark>A) pracovat na zařízení nízkého napětí pod napětím podle pracovních postupů, ale v prostorách mokrých, venkovních a vlhkých pouze pod dozorem</mark>
@@ -494,18 +494,18 @@ title: Řešení
 - <mark>D) nesmí pracovat na částech nn pod napětím (vyjma měření měřicími přístroji a jednoduchých předem schválených postupů)</mark>
 
 ### 79. Správné zapojení pohyblivého přívodu spotřebiče k zásuvce a zásuvky ve starší instalaci v síti <u>TN-C</u> je:
--  A) ![A](./obrazky/79-A.png#bozp#v_top)
--  B) ![B](./obrazky/79-B.png#bozp#v_top)
--  <mark>C)</mark> ![C](./obrazky/79-C.png#bozp#v_top)
--  D) ![D](./obrazky/79-D.png#bozp#v_top)
+-  A) ![A](./obrazky/79-A.PNG#bozp#v_top)
+-  B) ![B](./obrazky/79-B.PNG#bozp#v_top)
+-  <mark>C)</mark> ![C](./obrazky/79-C.PNG#bozp#v_top)
+-  D) ![D](./obrazky/79-D.PNG#bozp#v_top)
 
-### 80. Přívodní vedení k přístroji s provozním napětím 230 V AC, který má na svém štítku schematickou značku ![Cover](./obrazky/80.png#bozp#v_top)
+### 80. Přívodní vedení k přístroji s provozním napětím 230 V AC, který má na svém štítku schematickou značku ![Cover](./obrazky/80.PNG#bozp#v_top)
 - A) může být dvoužílové, ale kostra musí být spojena s vodičem PE
 - <mark>B) může být dvoužílové</mark>
 - C) musí být trojžílové
 
 ### 81. Síť vyobrazená na obrázku níže je síť:
-![IT](./obrazky/81.png#bozp) <br/>
+![IT](./obrazky/81.PNG#bozp) <br/>
 1) Velká impedance nebo izolováno
 - A) TN-C
 - B) TN-S
@@ -513,7 +513,7 @@ title: Řešení
 - <mark>D) IT</mark>
 
 ### 82. Značka na obrázku znamená:
-![PEN](./obrazky/82.png#bozp)
+![PEN](./obrazky/82.PNG#bozp)
 - <mark>A) Vodič PEN</mark>
 - B) Střední (M) nebo nulový (N) vodič
 - C) Ochranný vodič PE
@@ -532,9 +532,9 @@ title: Řešení
 - <mark>D) 0,4 s</mark>
 
 ### 85. Označte podle kterého obrázku (kterých obrázků) <u>nesmí</u> být provedeno připojení zásuvek 230 V AC a spotřebičů, které bylo provedeno v roce 1995
--  <mark>A)</mark> ![A](./obrazky/85-A.png#bozp#v_top)
--  <mark>B)</mark> ![B](./obrazky/85-B.png#bozp#v_top)
--  <mark>C)</mark> ![C](./obrazky/85-C.png#bozp#v_top)
+-  <mark>A)</mark> ![A](./obrazky/85-A.PNG#bozp#v_top)
+-  <mark>B)</mark> ![B](./obrazky/85-B.PNG#bozp#v_top)
+-  <mark>C)</mark> ![C](./obrazky/85-C.PNG#bozp#v_top)
 
 ### 86. Tlačítko nouzového vypnutí, zastavení má mít barvu
 - A) žlutá
@@ -575,7 +575,7 @@ title: Řešení
 - D) Má uzemněný uzel zdroje a funkce ochranného a nulového vodiče je v celé síti rozdělena na vodič PE a N
 
 ### 93. Značka na obrázku znamená:
-![PE](./obrazky/93.png#bozp)
+![PE](./obrazky/93.PNG#bozp)
 - A) střední nebo nulový vodič (N,M)
 - B) Vodič PEN
 - <mark>C) Ochranný vodič PE</mark>
