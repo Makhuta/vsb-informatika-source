@@ -111,6 +111,11 @@ const config = {
                             label: 'Počítačové systémy',
                             sidebarId: 'POS',
                         },
+                        {
+                            type: 'docSidebar',
+                            label: 'Programování v Java 1',
+                            sidebarId: 'JAVAI',
+                        },
                     ],
                 },
                 {
