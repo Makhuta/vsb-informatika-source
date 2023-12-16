@@ -39,5 +39,9 @@ img[src*="bozp"] {
 }
 
 mark {
-  background-color: greenyellow;
+  display: inline-block;
+  background-color: var(--ifm-color-primary);
+  border-radius: var(--ifm-code-border-radius);
+  padding: 2px;
+  border: 2px solid var(--ifm-color-primary-darkest);
 }
