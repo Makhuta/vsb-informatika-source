@@ -216,39 +216,6 @@ title: Řešení
 - B) ano vždy
 - <mark>C) ano, za předpokladu posouzení funkčnosti ochrany před nebezpečným dotykem (samočinného odpojení od zdroje) revizním technikem a to jen v případě, že to umožňuje charakter připojeného spotřebiče</mark>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ### 37. Černý izolovaný vodič se
 - A) může bez úprav použít pro libovolnou funkci
 - B) nikdy nesmí použít pro jinou funkci než nulový vodič
@@ -267,7 +234,7 @@ title: Řešení
 - C) proudovým chráničem
 - <mark>D) se obvykle při výskytu první poruchy nepožaduje</mark>
 
-### 40. Sdělovač (signálk- a) červené barvy má význam
+### 40. Sdělovač (signálka) červené barvy má význam
 - A) Mimořádný stav - např. přetížení, výpadek
 - <mark>B) nebezpečí, nouzové zastavení - např. porucha důležitého zařízení</mark>
 - C) zvláštní význam - indikace podmínek vyžadujících zásah
@@ -520,7 +487,7 @@ title: Řešení
 - D) Řídící obvody pracovního stroje napájené ze zdroje střídavého proudu
 
 ### 83. Vedení se jistí proti přetížení a zkratu
-- A) ji-li jištěno koncové zařízení, jištění vedení se obvykle nepožaduje
+- A) je-li jištěno koncové zařízení, jištění vedení se obvykle nepožaduje
 - B) kdekoliv po trase vedení
 - <mark>C) na začátku vedení, na začátku odbočky při snížení průřezu vedení</mark>
 - D) na konci vedení
