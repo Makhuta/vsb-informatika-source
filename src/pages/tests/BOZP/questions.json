@@ -1016,5 +1016,1401 @@
         "correctAnswer": [
             1
         ]
+    },
+    {
+        "question": {
+            "text": "Správné připojení pohyblivého přívodu spotřebiče k zásuvce a zásuvky v síti <u>TN-S</u> je",
+            "image": ""
+        },
+        "options": [
+            {
+                "text": "",
+                "image": "41-A.PNG"
+            },
+            {
+                "text": "",
+                "image": "41-B.PNG"
+            },
+            {
+                "text": "",
+                "image": "41-C.PNG"
+            },
+            {
+                "text": "",
+                "image": "41-D.PNG"
+            }
+        ],
+        "correctAnswer": [
+            3
+        ]
+    },
+    {
+        "question": {
+            "text": "Fázové izolované vodiče u střídavých soustav se značí barvou",
+            "image": ""
+        },
+        "options": [
+            {
+                "text": "libovolnou",
+                "image": ""
+            },
+            {
+                "text": "černá, hnědá, šedá",
+                "image": ""
+            },
+            {
+                "text": "zelenožlutá, modrá, červená",
+                "image": ""
+            },
+            {
+                "text": "modrá, červená, zelená",
+                "image": ""
+            }
+        ],
+        "correctAnswer": [
+            1
+        ]
+    },
+    {
+        "question": {
+            "text": "Při použití ochrany samočinným odpojením od zdroje pro spotřebiče třídy ochrany I. je v síti TN s jmenovitým fázovým napětím 230 V pro koncové obvody do 32 A předepsán čas",
+            "image": ""
+        },
+        "options": [
+            {
+                "text": "5 s",
+                "image": ""
+            },
+            {
+                "text": "0,8 s",
+                "image": ""
+            },
+            {
+                "text": "0,4 s",
+                "image": ""
+            },
+            {
+                "text": "0,2 s",
+                "image": ""
+            }
+        ],
+        "correctAnswer": [
+            2
+        ]
+    },
+    {
+        "question": {
+            "text": "Vedoucí práce:",
+            "image": ""
+        },
+        "options": [
+            {
+                "text": "se určuje pouze pro práce na elektrickém zařízení pod napětím",
+                "image": ""
+            },
+            {
+                "text": "musí být určen jen v případě, že vede pracovníky poučené",
+                "image": ""
+            },
+            {
+                "text": "se určuje pouze pro práce na zařízení vysokého napětí",
+                "image": ""
+            },
+            {
+                "text": "musí být určen pro každou práci na elektrickém zařízení",
+                "image": ""
+            }
+        ],
+        "correctAnswer": [
+            3
+        ]
+    },
+    {
+        "question": {
+            "text": "Zapínací ovládač má mít barvu",
+            "image": ""
+        },
+        "options": [
+            {
+                "text": "přednostně bílá, možná je i černá a zelená",
+                "image": ""
+            },
+            {
+                "text": "červená, hnědá černá",
+                "image": ""
+            },
+            {
+                "text": "jen zelená",
+                "image": ""
+            },
+            {
+                "text": "žlutá, zelená, černá",
+                "image": ""
+            }
+        ],
+        "correctAnswer": [
+            0
+        ]
+    },
+    {
+        "question": {
+            "text": "Ochranná vypínací smyčka je v síti TN-S tvořena",
+            "image": ""
+        },
+        "options": [
+            {
+                "text": "vinutím transformátoru - fázovým vodičem k místu poruchy a druhým fázovým vodičem zpět ke transformátoru spolu s vinutím transformátoru druhé fáze",
+                "image": ""
+            },
+            {
+                "text": "vinutím transformátoru - odporem zemniče Re a odporem uzemnění transformátoru Ra",
+                "image": ""
+            },
+            {
+                "text": "vinutím transformátoru - fázovým vodičem k místu poruchy a ochranným vodičem sítě PE",
+                "image": ""
+            },
+            {
+                "text": "vinutím transformátoru a fázovým vodičem k místu poruchy",
+                "image": ""
+            }
+        ],
+        "correctAnswer": [
+            2
+        ]
+    },
+    {
+        "question": {
+            "text": "Označte jakým způsobem se <u>nesmí</u> provést zapojení zásuvek a spotřebiče třídy I. v síti TN-C",
+            "image": ""
+        },
+        "options": [
+            {
+                "text": "",
+                "image": "47-A.PNG"
+            },
+            {
+                "text": "",
+                "image": "47-B.PNG"
+            },
+            {
+                "text": "",
+                "image": "47-C.PNG"
+            }
+        ],
+        "correctAnswer": [
+            0
+        ]
+    },
+    {
+        "question": {
+            "text": "Izolovaný nulový vodič se ve střídavých sítích značí barvou",
+            "image": ""
+        },
+        "options": [
+            {
+                "text": "červená",
+                "image": ""
+            },
+            {
+                "text": "černá",
+                "image": ""
+            },
+            {
+                "text": "zelenožlutá",
+                "image": ""
+            },
+            {
+                "text": "světle modrá",
+                "image": ""
+            }
+        ],
+        "correctAnswer": [
+            3
+        ]
+    },
+    {
+        "question": {
+            "text": "Proudový chránič s rozdílovým proudem 30 mA chrání",
+            "image": ""
+        },
+        "options": [
+            {
+                "text": "vedení a uživatele před přepětím",
+                "image": ""
+            },
+            {
+                "text": "pouze před účinky zkratů a uživatele před přímým dotykem živých částí a před nepřímým dotykem tj. dotykem neživých částí",
+                "image": ""
+            },
+            {
+                "text": "uživatele před přímým dotykem živých částí a před nepřímým dotykem tj. dotykem neživých částí",
+                "image": ""
+            },
+            {
+                "text": "před účinky zkratů a přetížení vedení",
+                "image": ""
+            }
+        ],
+        "correctAnswer": [
+            2
+        ]
+    },
+    {
+        "question": {
+            "text": "Automatické odpojení od zdroje v síti TT v případě poruchy se dnes obvykle realizuje",
+            "image": ""
+        },
+        "options": [
+            {
+                "text": "hlídačem izolačního stavu",
+                "image": ""
+            },
+            {
+                "text": "samočinné odpojení od zdroje se v případě výskytu prvé poruchy obvykle nepožaduje",
+                "image": ""
+            },
+            {
+                "text": "jističi a pojistkami (důvod je velký poruchový proud)",
+                "image": ""
+            },
+            {
+                "text": "proudovým chráničem (důvod je malý poruchový proud)",
+                "image": ""
+            }
+        ],
+        "correctAnswer": [
+            3
+        ]
+    },
+    {
+        "question": {
+            "text": "Pokud by postižený po úrazu elektrickým proudem v bezvědomí lapavě nepravidelně dýchal (event. nedýchá příp. zavedeme umělé dýchání), případně objeví-li se u něj cyanosa (fialoví - zprvu konečky prstů usi, pak se cyanosa rozšiřuje)",
+            "image": ""
+        },
+        "options": [
+            {
+                "text": "Je třeba okamžitě zahájit nepřímou srdeční masáž",
+                "image": ""
+            },
+            {
+                "text": "Jedná se o normální stav v bezvědomí",
+                "image": ""
+            },
+            {
+                "text": "Znamená to nedůsledně provedené dýchání z úst do úst je třeba jej provádět rychleji",
+                "image": ""
+            }
+        ],
+        "correctAnswer": [
+            0
+        ]
+    },
+    {
+        "question": {
+            "text": "Mez bezpečného malého napětí v prostorách normálních a nebezpečných je pro neživé části (kryty) a izolované vodiče",
+            "image": ""
+        },
+        "options": [
+            {
+                "text": "50 V st, 120 V ss",
+                "image": ""
+            },
+            {
+                "text": "25 C st, 60 V ss",
+                "image": ""
+            },
+            {
+                "text": "50 V st, 50 V ss",
+                "image": ""
+            },
+            {
+                "text": "12 V st, 25 V ss",
+                "image": ""
+            }
+        ],
+        "correctAnswer": [
+            0
+        ]
+    },
+    {
+        "question": {
+            "text": "Lze hasit elektrická zařízení pod napětím vodním hasicím přistrojem ?",
+            "image": ""
+        },
+        "options": [
+            {
+                "text": "Ano, ale jen zařízení do 1000 V",
+                "image": ""
+            },
+            {
+                "text": "Ano, v krajním případě při dodržení bezpečné vzdálenosti",
+                "image": ""
+            },
+            {
+                "text": "Ne",
+                "image": ""
+            }
+        ],
+        "correctAnswer": [
+            2
+        ]
+    },
+    {
+        "question": {
+            "text": "Napětí obvodů SELV, PELV v prostorách normálních nesmí přesáhnout hodnotu",
+            "image": ""
+        },
+        "options": [
+            {
+                "text": "50 V střídavé, 120 V stejnosměrné",
+                "image": ""
+            },
+            {
+                "text": "12 V střídavé, 25 V stejnosměrné",
+                "image": ""
+            },
+            {
+                "text": "25 V střídavé, 50 V stejnosměrné",
+                "image": ""
+            }
+        ],
+        "correctAnswer": [
+            0
+        ]
+    },
+    {
+        "question": {
+            "text": "První porucha v síti IT se projeví jako",
+            "image": ""
+        },
+        "options": [
+            {
+                "text": "je vyloučena existence první poruchy v síti IT",
+                "image": ""
+            },
+            {
+                "text": "bez hlídače izolačního stavu je obtížně zjistitelná",
+                "image": ""
+            },
+            {
+                "text": "nadproud ve fázovém vodiči podobající se přetížení",
+                "image": ""
+            },
+            {
+                "text": "nadproud ve fázovém vodiči charakteru zkratu",
+                "image": ""
+            }
+        ],
+        "correctAnswer": [
+            1
+        ]
+    },
+    {
+        "question": {
+            "text": "Označení gG na pojistce znamená",
+            "image": ""
+        },
+        "options": [
+            {
+                "text": "Určení pro jištění motorů a spotřebičů s velkým záběrovým proudem, jistí v celém rozsahu nadproudů",
+                "image": ""
+            },
+            {
+                "text": "Určeno pro všeobecné použití - jištění vedení, kabelů, zařízení před přetížením a zkratem",
+                "image": ""
+            },
+            {
+                "text": "Určeno pro jištění polovodičů - rychlé pojistky",
+                "image": ""
+            },
+            {
+                "text": "Určení pro jištění motorů a spotřebičů s velkým záběrovým proudem, jistí v omezeném rozsahu nadproudů",
+                "image": ""
+            }
+        ],
+        "correctAnswer": [
+            1
+        ]
+    },
+    {
+        "question": {
+            "text": "Při práci pod dozorem odpovídá za dodržení příslušných bezpečnostních předpisů",
+            "image": ""
+        },
+        "options": [
+            {
+                "text": "odpovědnost je na osobě konající dozor a zaměstnancích současně",
+                "image": ""
+            },
+            {
+                "text": "zaměstnanci",
+                "image": ""
+            },
+            {
+                "text": "osoba konající dozor",
+                "image": ""
+            },
+            {
+                "text": "vedoucí práce",
+                "image": ""
+            }
+        ],
+        "correctAnswer": [
+            2
+        ]
+    },
+    {
+        "question": {
+            "text": "Kterými hasicími přistroji je možné hasit elektrické zařízení pod napětím ?",
+            "image": ""
+        },
+        "options": [
+            {
+                "text": "Práškový, pěnový, sněhový",
+                "image": ""
+            },
+            {
+                "text": "Vodní, pěnový, sněhový",
+                "image": ""
+            },
+            {
+                "text": "Sněhový, práškový, halonový",
+                "image": ""
+            },
+            {
+                "text": "Vodní, práškový, halonový",
+                "image": ""
+            }
+        ],
+        "correctAnswer": [
+            2
+        ]
+    },
+    {
+        "question": {
+            "text": "Holé fázové vodiče se v instalacích značí",
+            "image": ""
+        },
+        "options": [
+            {
+                "text": "fázové vodiče černá barva, vodič PEN zelenožlutá",
+                "image": ""
+            },
+            {
+                "text": "fázové vodiče barvami hnědá, černá, šedá, vodič PEN zelenožlutá s modrými pruhy",
+                "image": ""
+            },
+            {
+                "text": "fázové vodiče oranžová v určitých místech doplněné černými rozlišovacími pruhy, vodič PE zelenožlutá",
+                "image": ""
+            }
+        ],
+        "correctAnswer": [
+            2
+        ]
+    },
+    {
+        "question": {
+            "text": "Jako síť TN se obecně označuje síť, která má",
+            "image": ""
+        },
+        "options": [
+            {
+                "text": "přímo uzemněný jeden bod sítě - nulový nebo krajní vodič, neživé části zařízení jsou k tomuto bodu spojeny prostřednictvím ochranných vodičů",
+                "image": ""
+            },
+            {
+                "text": "nemá uzemněný ani jeden bod sítě - neživé části zařízení jsou uzemněny samostatně nebo po skupinách",
+                "image": ""
+            },
+            {
+                "text": "přímo uzemněný jeden bod sítě - nulový nebo krajní vodič, neživé části zařízení nejsou k tomuto bodu spojeny prostřednictvím ochranných vodičů",
+                "image": ""
+            }
+        ],
+        "correctAnswer": [
+            0
+        ]
+    },
+    {
+        "question": {
+            "text": "Kdy se zapisuje do knihy úrazů evidence pracovního úrazu?",
+            "image": ""
+        },
+        "options": [
+            {
+                "text": "Evidenci úrazu sepisuje zaměstnavatel do knihy úrazů vždy",
+                "image": ""
+            },
+            {
+                "text": "Zaměstnavatel evidenci úrazu nesepisuje, činí tak zaměstnanec",
+                "image": ""
+            },
+            {
+                "text": "Jen je-li doba pracovní neschopnosti delší než 1 měsíc",
+                "image": ""
+            },
+            {
+                "text": "Evidenci o úrazu sepisuje zaměstnavatel jen je - li pracovní neschopnost delší než 3 dny, nejpozději však do 5 pracovních dnů po oznámení pracovího úrazu",
+                "image": ""
+            }
+        ],
+        "correctAnswer": [
+            0
+        ]
+    },
+    {
+        "question": {
+            "text": "Porucha v síti TT má za následek",
+            "image": ""
+        },
+        "options": [
+            {
+                "text": "nadproud ve fázovém vodiči ekvivalentní zkratu",
+                "image": ""
+            },
+            {
+                "text": "nevede k výskytu nadproudu",
+                "image": ""
+            },
+            {
+                "text": "přepětí v postižené fázi",
+                "image": ""
+            },
+            {
+                "text": "zpravidla nadproud ve fázovém vodiči podobající se přetížení",
+                "image": ""
+            }
+        ],
+        "correctAnswer": [
+            3
+        ]
+    },
+    {
+        "question": {
+            "text": "Jističe vyráběné v současné době se podle vypínacích charakteristik dělí na",
+            "image": ""
+        },
+        "options": [
+            {
+                "text": "ITV, IJV, ITM, IJM, JIK",
+                "image": ""
+            },
+            {
+                "text": "L, U, G",
+                "image": ""
+            },
+            {
+                "text": "gG, aM, gL",
+                "image": ""
+            },
+            {
+                "text": "B, C, D",
+                "image": ""
+            }
+        ],
+        "correctAnswer": [
+            3
+        ]
+    },
+    {
+        "question": {
+            "text": "Jističe typu B mají poměr zkratové spouště k jmenovitému proudu (<i>I</i><sub>k</sub> /<i>I</i><sub>n</sub>)",
+            "image": ""
+        },
+        "options": [
+            {
+                "text": "6-9",
+                "image": ""
+            },
+            {
+                "text": "3-5",
+                "image": ""
+            },
+            {
+                "text": "10-20",
+                "image": ""
+            }
+        ],
+        "correctAnswer": [
+            1
+        ]
+    },
+    {
+        "question": {
+            "text": "Síť vyobrazená na obrázku je síť:",
+            "image": "65.PNG"
+        },
+        "options": [
+            {
+                "text": "TN-C",
+                "image": ""
+            },
+            {
+                "text": "IT",
+                "image": ""
+            },
+            {
+                "text": "TN-S",
+                "image": ""
+            },
+            {
+                "text": "TT",
+                "image": ""
+            }
+        ],
+        "correctAnswer": [
+            3
+        ]
+    },
+    {
+        "question": {
+            "text": "Povinnost sepsat záznam o úrazu má",
+            "image": ""
+        },
+        "options": [
+            {
+                "text": "zaměstnavatel",
+                "image": ""
+            },
+            {
+                "text": "ošetřující lékař za asistence policie České republiky",
+                "image": ""
+            },
+            {
+                "text": "orgán OIP (oblastní inspektorát práce)",
+                "image": ""
+            },
+            {
+                "text": "ošetřující lékař",
+                "image": ""
+            }
+        ],
+        "correctAnswer": [
+            0
+        ]
+    },
+    {
+        "question": {
+            "text": "Síť vyobrazená na obrázku níže je síť",
+            "image": "67.PNG"
+        },
+        "options": [
+            {
+                "text": "TN-S",
+                "image": ""
+            },
+            {
+                "text": "TN-C-S",
+                "image": ""
+            },
+            {
+                "text": "IT",
+                "image": ""
+            },
+            {
+                "text": "TT",
+                "image": ""
+            }
+        ],
+        "correctAnswer": [
+            0
+        ]
+    },
+    {
+        "question": {
+            "text": "Síť vyobrazená na obrázku níže je síť:",
+            "image": "68.PNG"
+        },
+        "options": [
+            {
+                "text": "IT",
+                "image": ""
+            },
+            {
+                "text": "TN-S resp. TN-C-S",
+                "image": ""
+            },
+            {
+                "text": "TN-C",
+                "image": ""
+            },
+            {
+                "text": "TT",
+                "image": ""
+            }
+        ],
+        "correctAnswer": [
+            1
+        ]
+    },
+    {
+        "question": {
+            "text": "Oranžová barva izolovaného vodiče v instalaci znamená",
+            "image": ""
+        },
+        "options": [
+            {
+                "text": "vodič střídavých řídících obvodů pracovního stroje",
+                "image": ""
+            },
+            {
+                "text": "vodič není vypínán hlavním vypínačem, je živý i po vypnutí hlavního jističe / vypínače",
+                "image": ""
+            },
+            {
+                "text": "vodič obvodu PELV",
+                "image": ""
+            },
+            {
+                "text": "oranžová barva se nesmí v instalacích používat",
+                "image": ""
+            }
+        ],
+        "correctAnswer": [
+            1
+        ]
+    },
+    {
+        "question": {
+            "text": "Každé elektrické zařízení musí mít",
+            "image": ""
+        },
+        "options": [
+            {
+                "text": "smluvně zajištěného revizního technika",
+                "image": ""
+            },
+            {
+                "text": "určeného pracovníka zajišťujícího náhradní díly",
+                "image": ""
+            },
+            {
+                "text": "určenou osobu odpovědnou za elektrické zařízení",
+                "image": ""
+            }
+        ],
+        "correctAnswer": [
+            2
+        ]
+    },
+    {
+        "question": {
+            "text": "Spotřebiče třídy I. s pohyblivým přívodem je nutno zapojit",
+            "image": ""
+        },
+        "options": [
+            {
+                "text": "dvou nebo třívodičově",
+                "image": ""
+            },
+            {
+                "text": "dvouvodičově",
+                "image": ""
+            },
+            {
+                "text": "pro sítě TN-C dvouvodičově, jinak třívodičově",
+                "image": ""
+            },
+            {
+                "text": "třívodičově",
+                "image": ""
+            }
+        ],
+        "correctAnswer": [
+            3
+        ]
+    },
+    {
+        "question": {
+            "text": "Co se rozumí pojmem prevence rizik podle zákoníku práce (zák. 262/2006)",
+            "image": ""
+        },
+        "options": [
+            {
+                "text": "pojmem prevence rizik se rozumí všechna opatření vyplývající z  rávních a ostatních předpisů k zajištění bezpečnosti a ochrany zdraví při práci a z opatření zaměstnavatele, které mají za cíl předcházet  rizikům, odstraňovat nebo minimalizovat působení neodstranitelných rizik",
+                "image": ""
+            },
+            {
+                "text": "pojem prevence rizik je v podstatě úkon zpracování místního provozního bezpečnostního předpisu",
+                "image": ""
+            },
+            {
+                "text": "pojmem prevence rizik se rozumí úplné vyloučení všech rizikových faktorů na pracovišti",
+                "image": ""
+            }
+        ],
+        "correctAnswer": [
+            0
+        ]
+    },
+    {
+        "question": {
+            "text": "Označte správné zapojení zásuvek, které bylo provedeno po roce 1999 a později (v síti TN-S)",
+            "image": ""
+        },
+        "options": [
+            {
+                "text": "",
+                "image": "73-A.PNG"
+            },
+            {
+                "text": "",
+                "image": "73-B.PNG"
+            },
+            {
+                "text": "",
+                "image": "73-C.PNG"
+            }
+        ],
+        "correctAnswer": [
+            0
+        ]
+    },
+    {
+        "question": {
+            "text": "Osoba znalá §5 vyhl. 50/1978 Sb. může samostatně:",
+            "image": ""
+        },
+        "options": [
+            {
+                "text": "pracovat na zařízení nízkého napětí pod napětím podle pracovních postupů, ale v prostorách mokrých, venkovních a vlhkých pouze pod dozorem",
+                "image": ""
+            },
+            {
+                "text": "pracovat na zařízení nízkého napětí pod napětím bez omezení",
+                "image": ""
+            },
+            {
+                "text": "pracovat na zařízení nízkého napětí, ale jen bez napětí",
+                "image": ""
+            },
+            {
+                "text": "",
+                "image": ""
+            }
+        ],
+        "correctAnswer": [
+            0
+        ]
+    },
+    {
+        "question": {
+            "text": "Při použití ochrany neživých částí před úrazem elektrickým proudem - <i>elektrickým oddělením</i> - nesmí napětí elektricky odděleného obvodu přesáhnout:",
+            "image": ""
+        },
+        "options": [
+            {
+                "text": "400 V",
+                "image": ""
+            },
+            {
+                "text": "500 V",
+                "image": ""
+            },
+            {
+                "text": "50 V",
+                "image": ""
+            },
+            {
+                "text": "230 V",
+                "image": ""
+            }
+        ],
+        "correctAnswer": [
+            1
+        ]
+    },
+    {
+        "question": {
+            "text": "Izolovaný vodič PEN v sítích TN-C se značí barvou",
+            "image": ""
+        },
+        "options": [
+            {
+                "text": "světle modrá",
+                "image": ""
+            },
+            {
+                "text": "hnědá",
+                "image": ""
+            },
+            {
+                "text": "zelenožlutá s modrýma návlečkama na konci, světle modrá se zelenožlutou návlečkou na koncích",
+                "image": ""
+            },
+            {
+                "text": "černá s modrýma návlečkama na koncích",
+                "image": ""
+            }
+        ],
+        "correctAnswer": [
+            2
+        ]
+    },
+    {
+        "question": {
+            "text": "Vypínací ovládač má mít barvu",
+            "image": ""
+        },
+        "options": [
+            {
+                "text": "jen červená",
+                "image": ""
+            },
+            {
+                "text": "červená, černá, zelená",
+                "image": ""
+            },
+            {
+                "text": "žlutá, červená, černá",
+                "image": ""
+            },
+            {
+                "text": "přednostně černá, možná i šedá bílá a červená",
+                "image": ""
+            }
+        ],
+        "correctAnswer": [
+            3
+        ]
+    },
+    {
+        "question": {
+            "text": "Kompetence osoby poučené (dle Vyhl 50/1978 Sb. - §4) vystihuje",
+            "image": ""
+        },
+        "options": [
+            {
+                "text": "může pracovat s dohledem na částech EZ nn pod napětím",
+                "image": ""
+            },
+            {
+                "text": "může samostatně pracovat na zařízení všech napětí pod napětím",
+                "image": ""
+            },
+            {
+                "text": "může pracovat na částech nn pod napětím a to pod dozorem, na částech vn však pracovat nesmí",
+                "image": ""
+            },
+            {
+                "text": "nesmí pracovat na částech nn pod napětím (vyjma měření měřicími přístroji a jednoduchých předem schválených postupů)",
+                "image": ""
+            }
+        ],
+        "correctAnswer": [
+            3
+        ]
+    },
+    {
+        "question": {
+            "text": "Správné zapojení pohyblivého přívodu spotřebiče k zásuvce a zásuvky ve starší instalaci v síti <u>TN-C</u> je:",
+            "image": ""
+        },
+        "options": [
+            {
+                "text": "",
+                "image": "79-A.PNG"
+            },
+            {
+                "text": "",
+                "image": "79-B.PNG"
+            },
+            {
+                "text": "",
+                "image": "79-C.PNG"
+            },
+            {
+                "text": "",
+                "image": "79-D.PNG"
+            }
+        ],
+        "correctAnswer": [
+            2
+        ]
+    },
+    {
+        "question": {
+            "text": "Přívodní vedení k přístroji s provozním napětím 230 V AC, který má na svém štítku schematickou značku !",
+            "image": "80.PNG"
+        },
+        "options": [
+            {
+                "text": "může být dvoužílové, ale kostra musí být spojena s vodičem PE",
+                "image": ""
+            },
+            {
+                "text": "může být dvoužílové",
+                "image": ""
+            },
+            {
+                "text": "musí být trojžílové",
+                "image": ""
+            }
+        ],
+        "correctAnswer": [
+            1
+        ]
+    },
+    {
+        "question": {
+            "text": "Síť vyobrazená na obrázku níže je síť: </br>1) Velká impedance nebo izolováno",
+            "image": "81.PNG"
+        },
+        "options": [
+            {
+                "text": "TN-C",
+                "image": ""
+            },
+            {
+                "text": "TN-S",
+                "image": ""
+            },
+            {
+                "text": "TT",
+                "image": ""
+            },
+            {
+                "text": "IT",
+                "image": ""
+            }
+        ],
+        "correctAnswer": [
+            3
+        ]
+    },
+    {
+        "question": {
+            "text": "Značka na obrázku znamená:",
+            "image": "82.PNG"
+        },
+        "options": [
+            {
+                "text": "Vodič PEN",
+                "image": ""
+            },
+            {
+                "text": "Střední (M) nebo nulový (N) vodič",
+                "image": ""
+            },
+            {
+                "text": "Ochranný vodič PE",
+                "image": ""
+            },
+            {
+                "text": "Řídící obvody pracovního stroje napájené ze zdroje střídavého proudu",
+                "image": ""
+            }
+        ],
+        "correctAnswer": [
+            0
+        ]
+    },
+    {
+        "question": {
+            "text": "Vedení se jistí proti přetížení a zkratu",
+            "image": ""
+        },
+        "options": [
+            {
+                "text": "je-li jištěno koncové zařízení, jištění vedení se obvykle nepožaduje",
+                "image": ""
+            },
+            {
+                "text": "kdekoliv po trase vedení",
+                "image": ""
+            },
+            {
+                "text": "na začátku vedení, na začátku odbočky při snížení průřezu vedení",
+                "image": ""
+            },
+            {
+                "text": "na konci vedení",
+                "image": ""
+            }
+        ],
+        "correctAnswer": [
+            2
+        ]
+    },
+    {
+        "question": {
+            "text": "V síti TN s napětím U 0 =230 V je maximální doba odpojení poruchy v koncových obvodech do 32 A stanovena na:",
+            "image": ""
+        },
+        "options": [
+            {
+                "text": "5 s",
+                "image": ""
+            },
+            {
+                "text": "0,1 s",
+                "image": ""
+            },
+            {
+                "text": "0,2 s",
+                "image": ""
+            },
+            {
+                "text": "0,4 s",
+                "image": ""
+            }
+        ],
+        "correctAnswer": [
+            3
+        ]
+    },
+    {
+        "question": {
+            "text": "Označte podle kterého obrázku (kterých obrázků) <u>nesmí</u> být provedeno připojení zásuvek 230 V AC a spotřebičů, které bylo provedeno v roce 1995",
+            "image": ""
+        },
+        "options": [
+            {
+                "text": "",
+                "image": "85-A.PNG"
+            },
+            {
+                "text": "",
+                "image": "85-B.PNG"
+            },
+            {
+                "text": "",
+                "image": "85-C.PNG"
+            }
+        ],
+        "correctAnswer": [
+            0,
+            1,
+            2
+        ]
+    },
+    {
+        "question": {
+            "text": "Tlačítko nouzového vypnutí, zastavení má mít barvu",
+            "image": ""
+        },
+        "options": [
+            {
+                "text": "žlutá",
+                "image": ""
+            },
+            {
+                "text": "červená, vhodné je umístění na žlutém reflexním pozadí",
+                "image": ""
+            },
+            {
+                "text": "žlutá na červeném pozadí",
+                "image": ""
+            }
+        ],
+        "correctAnswer": [
+            1
+        ]
+    },
+    {
+        "question": {
+            "text": "Označení SELV se používá",
+            "image": ""
+        },
+        "options": [
+            {
+                "text": "Pro obvody s bezpečným malým napětím (pro daný prostor) jejichž živé části nejsou spojeny v žádném případě se zemí",
+                "image": ""
+            },
+            {
+                "text": "Pro obvody s funkčním malým napětím",
+                "image": ""
+            },
+            {
+                "text": "Pro obvody s bezpečným malým napětím (pro daný prostor) jejichž živé části jsou spojeny se zemí v určitém bodě",
+                "image": ""
+            }
+        ],
+        "correctAnswer": [
+            0
+        ]
+    },
+    {
+        "question": {
+            "text": "Kterými hasicími přístroji je možné hasit bezpečně vypnuté elektrické zařízení ?",
+            "image": ""
+        },
+        "options": [
+            {
+                "text": "jakýmkoliv",
+                "image": ""
+            },
+            {
+                "text": "pěnovým, vodním, sněhovým",
+                "image": ""
+            },
+            {
+                "text": "vodním, sněhovým ne pěnovým",
+                "image": ""
+            },
+            {
+                "text": "sněhovým, práškovým, halonovým ne vodním",
+                "image": ""
+            }
+        ],
+        "correctAnswer": [
+            0
+        ]
+    },
+    {
+        "question": {
+            "text": "Označení aM na pojistce znamená",
+            "image": ""
+        },
+        "options": [
+            {
+                "text": "Určeno pro jištění polovodičů - rychlé pojistky",
+                "image": ""
+            },
+            {
+                "text": "Určeno pro všeobecné použití - jištění vedení, kabelů, zařízení před přetížením a zkratem",
+                "image": ""
+            },
+            {
+                "text": "Určení pro jištění motorů a spotřebičů s velkým záběrovým proudem, jistí v celém rozsahu nadproudů",
+                "image": ""
+            },
+            {
+                "text": "Určení pro jištění motorů a spotřebičů s velkým záběrovým proudem, jistí v omezeném rozsahu nadproudů - jen pro zkraty",
+                "image": ""
+            }
+        ],
+        "correctAnswer": [
+            3
+        ]
+    },
+    {
+        "question": {
+            "text": "Při poskytování nepřímé srdeční masáži platí",
+            "image": ""
+        },
+        "options": [
+            {
+                "text": "zásadně se nesmí kombinovat s umělým dýcháním, frekvence stlačení hrudníku je asi 60 krát za minutu",
+                "image": ""
+            },
+            {
+                "text": "frekvence stlačení hrudníku je asi 100 krát za minutu, může se kombinovat s umělým dýcháním v poměru 30 stlačení na 2 vdechy",
+                "image": ""
+            },
+            {
+                "text": "frekvence stlačení hrudníku je asi 60 krát za minutu, kombinuje se s umělým dýcháním v poměru 15 stlačení, 3 vdechy",
+                "image": ""
+            }
+        ],
+        "correctAnswer": [
+            1
+        ]
+    },
+    {
+        "question": {
+            "text": "Označení PELV se používá",
+            "image": ""
+        },
+        "options": [
+            {
+                "text": "Pro obvody s bezpečným malým napětím (pro daný prostor) jejichž živé části nejsou spojeny v žádném případě se zemí",
+                "image": ""
+            },
+            {
+                "text": "Pro obvody s bezpečným malým napětím (pro daný prostor) jejichž živé části jsou spojeny se zemí v určitém bodě",
+                "image": ""
+            },
+            {
+                "text": "Pro obvody s funkčním malým napětím",
+                "image": ""
+            }
+        ],
+        "correctAnswer": [
+            1
+        ]
+    },
+    {
+        "question": {
+            "text": "Jako síť TN-C se označuje síť, která:",
+            "image": ""
+        },
+        "options": [
+            {
+                "text": "Má přímo uzemněný uzel zdroje, spotřebiče jsou zemněny samostatně nebo po skupinách",
+                "image": ""
+            },
+            {
+                "text": "Má uzemněný uzel zdroje a funkce ochranného a nulového vodiče je sloučena v jeden vodič PEN",
+                "image": ""
+            },
+            {
+                "text": "Má izolovaný uzel zdroje, spotřebiče jsou zemněny samostatně nebo po skupinách",
+                "image": ""
+            },
+            {
+                "text": "Má uzemněný uzel zdroje a funkce ochranného a nulového vodiče je v celé síti rozdělena na vodič PE a N",
+                "image": ""
+            }
+        ],
+        "correctAnswer": [
+            1
+        ]
+    },
+    {
+        "question": {
+            "text": "Značka na obrázku znamená:",
+            "image": "93.PNG"
+        },
+        "options": [
+            {
+                "text": "střední nebo nulový vodič (N,M)",
+                "image": ""
+            },
+            {
+                "text": "Vodič PEN",
+                "image": ""
+            },
+            {
+                "text": "Ochranný vodič PE",
+                "image": ""
+            },
+            {
+                "text": "ovládací obvody stejnosměrného proudu",
+                "image": ""
+            }
+        ],
+        "correctAnswer": [
+            2
+        ]
+    },
+    {
+        "question": {
+            "text": "Sdělovač (signálka) modré barvy má význam",
+            "image": ""
+        },
+        "options": [
+            {
+                "text": "Mimořádný stav - např. přetížení, výpadek",
+                "image": ""
+            },
+            {
+                "text": "normální stav - indikace normálních podmínek",
+                "image": ""
+            },
+            {
+                "text": "zvláštní význam - indikace podmínek vyžadujících zásah",
+                "image": ""
+            },
+            {
+                "text": "nebezpečí, nouzové zastavení - např. porucha důležitého zařízení",
+                "image": ""
+            }
+        ],
+        "correctAnswer": [
+            2
+        ]
     }
 ]
