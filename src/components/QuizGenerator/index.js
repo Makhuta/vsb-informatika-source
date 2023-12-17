@@ -15,24 +15,46 @@ const QuizGenerator = (questionsData, page, numberToGenerate = 10) => {
       const question = questionsData[randomIndex];
       selectedQuestions.add(question);
     }
+    const array = new Array(numberOfQuestions);
+    for(var i = 0; i < array.length; i++) {
+      array[i] = new Array(0);
+    }
+    setUserAnswers(array);
     setQuestions(Array.from(selectedQuestions));
-    setUserAnswers(new Array(numberOfQuestions).fill(-1));
     setResultState(new Array(numberOfQuestions).fill(styles.unanswered));
     setShowResults(false);
   };
 
   const handleAnswerChange = (index, event) => {
+    const optionIndex = parseInt(event.target.id);
     const updatedAnswers = [...userAnswers];
-    updatedAnswers[index] = parseInt(event.target.id);
+  
+    const isOptionSelected = updatedAnswers[index].includes(optionIndex);
+  
+    if (isOptionSelected) {
+      updatedAnswers[index] = updatedAnswers[index].filter((ans) => ans !== optionIndex);
+    } else {
+      updatedAnswers[index].push(optionIndex);
+    }
+  
     setUserAnswers(updatedAnswers);
   };
 
   const handleSubmit = (event) => {
     event.preventDefault();
     setShowResults(true);
+
     const updatedState = userAnswers.map((answer, index) => {
-      return answer == -1 ? styles.unanswered : questions[index].correctAnswer.includes(answer) ? styles.right : styles.wrong;
+      if (Array.isArray(questions[index].correctAnswer)) {
+        const isCorrect = userAnswers[index].every(
+          (correctAns) => questions[index].correctAnswer.includes(correctAns)
+        ) && userAnswers[index].length === questions[index].correctAnswer.length;
+        return isCorrect ? styles.right : styles.wrong;
+      } else {
+        return answer === questions[index].correctAnswer ? styles.right : styles.wrong;
+      }
     });
+  
     setResultState(updatedState);
   };
 
@@ -84,11 +106,11 @@ const QuizGenerator = (questionsData, page, numberToGenerate = 10) => {
                       <label>
                         <div className={styles.quizValues}>
                           <input
-                            type="radio"
+                            type="checkbox"
                             name={`question_${index}`}
                             value={option}
                             id={optionIndex}
-                            checked={userAnswers[index] === optionIndex}
+                            checked={userAnswers[index].includes(optionIndex)}
                             onChange={(event) => handleAnswerChange(index, event)}
                             disabled={showResults}
                           />
