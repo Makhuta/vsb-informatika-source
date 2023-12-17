@@ -61,7 +61,10 @@ const QuizGenerator = (questionsData, page, numberToGenerate = 10) => {
   const calculateScore = () => {
     let score = 0;
     questions.forEach((question, index) => {
-      if (questions[index].correctAnswer.includes(userAnswers[index])) {
+      const isCorrect = userAnswers[index].every(
+        (correctAns) => questions[index].correctAnswer.includes(correctAns)
+      ) && userAnswers[index].length === questions[index].correctAnswer.length;
+      if (isCorrect) {
         score += 1;
       }
     });
