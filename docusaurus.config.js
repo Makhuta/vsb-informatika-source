@@ -82,7 +82,8 @@ const config = {
                 alt: 'VŠB Informatika',
                 src: 'img/logo.svg',
             },
-            items: [{
+            items: [
+                {
                     type: 'dropdown',
                     label: 'Subjects',
                     position: 'left',
@@ -118,6 +119,17 @@ const config = {
                         },
                     ],
                 },
+                {
+                    type: 'dropdown',
+                    label: 'Tests',
+                    position: 'left',
+                    items: [{
+                            label: 'Bezpečnost v elektrotechnice',
+                            to: 'tests/BOZP/main',
+                        },
+                    ],
+                },
+                
                 {
                     label: "Deadlines",
                     to: "deadlines",
